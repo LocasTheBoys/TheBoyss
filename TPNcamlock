@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-wait(600) --waktu tunggu 10 menit
+wait(5) --waktu tunggu 10 menit
 print("Player Camera Lock TDS Run")
 local allowedPlaceId = 14082129854
 
