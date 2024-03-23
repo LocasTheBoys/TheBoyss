@@ -1,0 +1,17 @@
+print("Full Script Is Running")
+local function executeScripts(scripts)
+    for _, script in ipairs(scripts) do
+        local co = coroutine.create(function()
+            loadstring(game:HttpGet(script))()
+        end)
+        coroutine.resume(co)
+    end
+end
+
+local scripts = {
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/autotplobbydetect",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/autolobbyTPPaskah",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/TPNcamlock"
+}
+
+executeScripts(scripts)
