@@ -1,10 +1,12 @@
-repeat task.wait() until game:IsLoaded()
-wait(5) -- Menunggu 5 detik setelah permainan dimuat
-print("Player Teleporting TDS Run")
-local allowedPlaceId = 13775256536
+while true do
+    repeat task.wait() until game:IsLoaded()
+    wait(5) -- Menunggu 5 detik setelah permainan dimuat
+    print("Player Teleporting TDS Run")
+    local allowedPlaceId = 13775256536
 
-if game.PlaceId == allowedPlaceId then
-    -- Script hanya dijalankan jika PlaceId sesuai
-    print("Script dijalankan di tempat yang diizinkan.")
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-631.88, 233.73, -263.02)
+    if game.PlaceId == allowedPlaceId then
+        -- Script hanya dijalankan jika PlaceId sesuai
+        print("Script dijalankan di tempat yang diizinkan.")
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-631.88, 233.73, -263.02)
+    end
 end
