@@ -1,5 +1,5 @@
 print("Full Script Is Running")
-local function executeScripts(scripts)
+--local function executeScripts(scripts)
     for _, script in ipairs(scripts) do
         local co = coroutine.create(function()
             loadstring(game:HttpGet(script))()
@@ -8,8 +8,8 @@ local function executeScripts(scripts)
     end
 end
 
-local scripts = {
+--local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/fullsc222zzz"
 }
 
-executeScripts(scripts)
+--executeScripts(scripts)
