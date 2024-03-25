@@ -1,12 +1,12 @@
 -- Kode-kode pemisah
 local codes = {
-    "xM", -- Script Claim 1 - 50
-    "ep", -- Script Auto Convert Eggs To Gems
+    "2P", -- Script Claim 1 - 50
+    "RZ", -- Script Auto Convert Eggs To Gems
     "0g", -- Script Auto Gacha Habisin Coins
-    "VT", -- Script Auto Boost
-    "8u" -- Script Auto Claim Mission
+    "mh", -- Script Auto Boost
+    "tV" -- Script Auto Claim Mission 2 buah
 }
-
+-------------------------------------------------------------------------------------------------------
 -- Script Claim 1 - 50
 for i = 1, 50 do
     local args = {
@@ -20,7 +20,7 @@ for i = 1, 50 do
 
     game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
 end
-
+-------------------------------------------------------------------------------------------------------
 -- Mengulangi sebanyak 50 kali
 for i = 1, 50 do
     -- Script Auto Convert Eggs To Gems
@@ -35,7 +35,7 @@ for i = 1, 50 do
 
     game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
 end
-
+-------------------------------------------------------------------------------------------------------
 -- Script Auto Gacha Habisin Coins
 local args = {
     [1] = {
@@ -53,20 +53,22 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
-
+-------------------------------------------------------------------------------------------------------
 -- Script Auto Boost
 -- Boost 1 2xEggsBoost
-local args = {
-    [1] = {
+for i = 1, 5 do
+    local args = {
         [1] = {
-            [1] = "2xEggsBoost"
-        },
-        [2] = codes[4] -- Menggunakan kode keempat dari tabel codes
+            [1] = {
+                [1] = "2xEggsBoost"
+            },
+            [2] = codes[4] -- Menggunakan kode keempat dari tabel codes
+        }
     }
-}
 
-game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
-
+    game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
+end
+-------------------------------------------------------------------------------------------------------
 -- Script Auto Claim Mission
 -- Script Auto PlayForHours
 
@@ -80,7 +82,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").dataRemoteEvent:FireServer(unpack(args))
-
 
 -- Script Auto CollectEggs
 local args = {
