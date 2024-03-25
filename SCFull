@@ -9,10 +9,7 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/autotplobbydetect",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/autolobbyTPPaskah",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/fullsc222zzz",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/TPNcamlock"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/fullsc222zzz"
 }
 
 executeScripts(scripts)
