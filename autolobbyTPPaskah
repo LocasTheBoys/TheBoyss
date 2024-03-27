@@ -8,5 +8,7 @@ while true do
         -- Script hanya dijalankan jika PlaceId sesuai
         print("Script dijalankan di tempat yang diizinkan.")
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-631.88, 233.73, -263.02)
+        wait(30)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-650.91, 250.35, -250.09)
     end
 end
