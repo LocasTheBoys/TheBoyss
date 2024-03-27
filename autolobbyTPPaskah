@@ -10,16 +10,16 @@ while true do
         -- Tempat saat ini berada di dalam whitelist
         local Thread1 = coroutine.create(function()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-                CFrame.new(-650.91, 250.35, -250.09)
-            print("Teleporting Player To Random")
+                CFrame.new(-631.88, 233.73, -263.02)
+            print("Teleporting Player To Paskah")
         end)
 
         coroutine.resume(Thread1)
         
         wait(30)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
-            CFrame.new(-631.88, 233.73, -263.02)
-        print("Teleporting Player To Egg Map")
+            CFrame.new(-650.91, 250.35, -250.09)
+        print("Teleporting Player To Random")
     else
         print("Tempat saat ini tidak diizinkan.")
         -- Tempat saat ini tidak diizinkan, mungkin bisa ada tindakan tambahan di sini
