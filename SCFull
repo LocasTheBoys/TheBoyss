@@ -11,7 +11,6 @@ getgenv().Config = {
     ["PlayMacro"] = true,
     ["AutoSave"] = true,
     ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventsPass"] = true,
     ["DelayJoin"] = "10",
