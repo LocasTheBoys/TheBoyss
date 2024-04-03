@@ -1,3 +1,4 @@
+--VPS 2
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
