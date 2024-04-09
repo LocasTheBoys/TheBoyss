@@ -1,4 +1,4 @@
---VPS3
+--Script Gacha Key Ganti
 getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
@@ -23,4 +23,4 @@ getgenv().Config = {
 }
 getgenv().Key = "k30613ef56544c2f5880324a"
 
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden0)until Joebiden
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
