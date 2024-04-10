@@ -1,25 +1,9 @@
 --Script Gacha Key Ganti
+--print("Template Set Awal Troops")
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1223777534391615559/Edited.json?ex=661b16a4&is=6608a1a4&hm=e45fd4f06e1cec4df8a82b74e868c942598857e000870419d63cafad303e6b96&"
 getgenv().Config = {
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEgg"] = "true",
-    ["BoostFPS"] = true,
-    ["SellRarities"] = {
-        ["Basic"] = true,
-        ["Epic"] = true,
-        ["Uncommon"] = true,
-        ["Rare"] = true,
-    },
-    ["SelectCase"] = "JesterCrate",
-    ["AutoSummonTroop"] = true,
-    ["Summonx10"] = true,
-    ["RequireRoll"] = 1,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xLuckBoost"] = true,
-    },
+    ["SelectMacro"] = "Nousigi Hub/Macro/Edited",
 }
 getgenv().Key = "k29557962ec037367941922a"
 
