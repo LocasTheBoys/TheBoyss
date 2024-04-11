@@ -1,35 +1,26 @@
 --print("VPS 4")
+--Script Gacha Key Ganti
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Egg Island",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "Nousigi Hub/Macro/Edited",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
     ["AutoClaimQuest"] = true,
     ["AutoClaimEasterQuest"] = true,
     ["AutoClaimEventPass"] = true,
-    ["DelayJoin"] = "30",
-    ["PlacingFailsafe"] = true,
     ["ExchangeTier"] = "1",
     ["AutoExchangeEgg"] = "true",
-    ["MailName"] = "MamaGemsa412",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
+    ["BoostFPS"] = true,
+    ["SellRarities"] = {
+        ["Basic"] = true,
+        ["Epic"] = true,
+        ["Uncommon"] = true,
+        ["Rare"] = true,
+    },
+    ["SelectCase"] = "JesterCrate",
+    ["AutoSummonTroop"] = true,
+    ["Summonx10"] = true,
+    ["RequireRoll"] = 1,
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
+        ["2xLuckBoost"] = true,
     },
-    ["UseAll"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1226239006547640340/ekVkCSFJPPRR83Ywc8_Uw2yUYDjNvSVEq5FXuJU_AJbS8vrg8dMXkeD63zuuvzhirBHu",
 }
 getgenv().Key = "k6adfd943ab167da9719b645"
 
