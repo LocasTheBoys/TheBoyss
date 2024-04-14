@@ -1,14 +1,15 @@
+```lua
 --print("VPS 5")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1223059198200381511/Endlessv2.json?ex=662aeea4&is=661879a4&hm=769e1ef2ec184b1c4e584406cf444cdd8b4313809db135ea806a5b889494f077&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1229216693906313236/Toilet.json?ex=662ee041&is=661c6b41&hm=2a9e64d68efd066416b176979503fb87e49c45e926985c7c9bd03ab1cc13de81&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Toilet Fortress",
+    ["SelectMap"] = "Toilet City",
     ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "Nousigi Hub/Macro/Endlessv2",
+    ["SelectDifficulty"] = "Nightmare",
+    ["SelectMacro"] = "Nousigi Hub/Macro/Toilet",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
@@ -28,11 +29,10 @@ getgenv().Config = {
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
         ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
     },
     ["UseAll"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1226590290845110333/hCLayxJ6n0rJH7qkOpky7u9LI2EyyzeG9YD02cU70err0FgQz378mDQ42I2uz8CC8t8k",
 }
 getgenv().Key = "kafef7341c38517d64860f29"
 
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden```
