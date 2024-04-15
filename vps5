@@ -1,4 +1,3 @@
-```lua
 --print("VPS 5")
 getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1229216693906313236/Toilet.json?ex=662ee041&is=661c6b41&hm=2a9e64d68efd066416b176979503fb87e49c45e926985c7c9bd03ab1cc13de81&"
@@ -35,4 +34,4 @@ getgenv().Config = {
 }
 getgenv().Key = "kafef7341c38517d64860f29"
 
-repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden```
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
