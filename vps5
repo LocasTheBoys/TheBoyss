@@ -1,14 +1,14 @@
 --print("VPS 5")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1229216693906313236/Toilet.json?ex=662ee041&is=661c6b41&hm=2a9e64d68efd066416b176979503fb87e49c45e926985c7c9bd03ab1cc13de81&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1229231072626212925/editenless.json?ex=662eeda5&is=661c78a5&hm=1adda4632d44ff611f6a3af796dce06bed513b751485186039857fc1669cd52f&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Toilet City",
+    ["SelectMap"] = "Toilet Fortress",
     ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "Nousigi Hub/Macro/Toilet",
+    ["SelectDifficulty"] = "Endless",
+    ["SelectMacro"] = "Nousigi Hub/Macro/editenless",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
