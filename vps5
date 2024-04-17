@@ -1,6 +1,4 @@
 --print("VPS 5")
-getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1229231072626212925/editenless.json?ex=662eeda5&is=661c78a5&hm=1adda4632d44ff611f6a3af796dce06bed513b751485186039857fc1669cd52f&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
