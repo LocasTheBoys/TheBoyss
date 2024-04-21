@@ -1,3 +1,4 @@
 --print("VPS 5")
 print("Script Running")
+wait(60)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/SCFull"))()
