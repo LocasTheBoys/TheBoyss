@@ -1,4 +1,7 @@
 --print("HOME")
+--print("Template Set Awal Troops")
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1242155448199544872/TimeFactLoiEdit.json?ex=664ccee8&is=664b7d68&hm=11274a5f2007db471945f420f50634a2dda83d87ddc758390d4969917ab39d74&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
