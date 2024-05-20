@@ -1,4 +1,0 @@
---print("Rumah")
-wait(10)
-print("Script Acc Trade Run")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/driver123415/collaborate/main/AutoTradeACC"))()

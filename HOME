@@ -1,0 +1,39 @@
+--print("HOME")
+getgenv().Config = {
+    ["AutoReplay"] = true,
+    ["AutoJoinMatch"] = true,
+    ["AutoRejoin"] = true,
+    ["JoinFailsafe"] = false,
+    ["TPLobbyIfPlayer"] = true,
+    ["SelectMap"] = "TimeFactory (Rewind)",
+    ["AutoVoteDifficulty"] = "true",
+    ["SelectDifficulty"] = "Nightmare",
+    ["SelectMacro"] = "Nousigi Hub/Macro/Edited",
+    ["AutoSkip"] = true,
+    ["DeleteMap"] = true,
+    ["PlayMacro"] = true,
+    ["AutoSave"] = true,
+    ["BoostFPS"] = true,
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEasterQuest"] = true,
+    ["AutoClaimEventPass"] = true,
+    ["DelayJoin"] = "30",
+    ["PlacingFailsafe"] = true,
+    ["ExchangeTier"] = "1",
+    ["AutoExchangeEgg"] = "true",
+    ["MailName"] = "BoysaGemslota",
+    ["RequiredGem"] = 1000,
+    ["AutoMail"] = true,
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xCoinsBoost"] = true,
+        ["2xEggsBoost"] = true,
+        ["2xClocksBoost"] = true,
+    },
+    ["UseAll"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+}
+getgenv().Key = "kafef7341c38517d64860f29"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
