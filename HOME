@@ -1,7 +1,7 @@
 --print("HOME")
 --print("Template Set Awal Troops")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1047420274666119168/1242155448199544872/TimeFactLoiEdit.json?ex=664ccee8&is=664b7d68&hm=11274a5f2007db471945f420f50634a2dda83d87ddc758390d4969917ab39d74&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/888605470217080856/1241945423661367376/loisprite.json?ex=664c0b4f&is=664ab9cf&hm=477ee1ef81270a01fe81e5a40f14adadf9a045b7f1efd31ed86a5d41dd4d8e2e&"
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true,
@@ -11,7 +11,7 @@ getgenv().Config = {
     ["SelectMap"] = "TimeFactory (Rewind)",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "TimeFactLoiEdit",
+    ["SelectMacro"] = "loisprite",
     ["AutoSkip"] = true,
     ["DeleteMap"] = true,
     ["PlayMacro"] = true,
