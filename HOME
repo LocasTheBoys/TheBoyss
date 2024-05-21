@@ -1,6 +1,6 @@
 --print("Template Set Awal Troops")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/888605470217080856/1241945423661367376/loisprite.json?ex=664c0b4f&is=664ab9cf&hm=477ee1ef81270a01fe81e5a40f14adadf9a045b7f1efd31ed86a5d41dd4d8e2e&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220409014337273926/1242517118205956106/loisprite.json?ex=664e1fbd&is=664cce3d&hm=ccc528e4beeee7d3c25cedf5fc67fd381a268e8cc6d1bcf52f2753a93c6850ba&"
 getgenv().Config = {
     ["SelectMacro"] = "loisprite",
 }
