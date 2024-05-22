@@ -1,35 +1,8 @@
---print("VPS 1")
+--print("Template Set Awal Troops")
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220409014337273926/1242517118205956106/loisprite.json?ex=664e1fbd&is=664cce3d&hm=ccc528e4beeee7d3c25cedf5fc67fd381a268e8cc6d1bcf52f2753a93c6850ba&"
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "Toilet Fortress",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Endless",
-    ["SelectMacro"] = "Nousigi Hub/Macro/editenless",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEasterQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["DelayJoin"] = "5",
-    ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchangeEgg"] = "true",
-    ["MailName"] = "Gansdangvp2t",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["WH_MatchComplete"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-    },
-    ["UseAll"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1222839644346126368/7z-p1kLtKUxf1THgK4adiNf8mZ3YxjXqZGsaWdY5Ij5cr078oz7hrzyoFO_NQBk0-1-4",
+    ["SelectMacro"] = "loisprite",
 }
 getgenv().Key = "k29557962ec037367941922a"
 
