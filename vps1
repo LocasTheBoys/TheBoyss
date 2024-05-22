@@ -4,6 +4,6 @@ getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220428689142054
 getgenv().Config = {
     ["SelectMacro"] = "loisprite",
 }
-getgenv().Key = "KEY"
+getgenv().Key = "k29557962ec037367941922a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
