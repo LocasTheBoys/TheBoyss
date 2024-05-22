@@ -1,9 +1,9 @@
 --print("Template Set Awal Troops")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220409014337273926/1242517118205956106/loisprite.json?ex=664e1fbd&is=664cce3d&hm=ccc528e4beeee7d3c25cedf5fc67fd381a268e8cc6d1bcf52f2753a93c6850ba&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220428689142054982/1242957922053652521/loisprite.json?ex=664fba45&is=664e68c5&hm=ea81c5a6eef09d348d65ae650c1d5258d605b81dc5321d732d703d09876a52d7&"
 getgenv().Config = {
     ["SelectMacro"] = "loisprite",
 }
-getgenv().Key = "k29557962ec037367941922a"
+getgenv().Key = "KEY"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
