@@ -1,10 +1,5 @@
 --print("VPS 1")
 getgenv().Config = {
-    ["AutoListForSale"] = true,
-    ["SelectProduct"] = "ClockCrate",
-    ["ALFS_HopServer"] = true,
-    ["ALFS_DelayHop"] = 15, --Auto List For Sale minutes
-    ["GemPrice"] = "88",
     ["WH_MailSent"] = false,
     ["MailName"] = "Gansdangvp2t",
     ["RequiredGem"] = 2000,
