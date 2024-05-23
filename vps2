@@ -11,7 +11,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps2ke2",
-    "https://github.com/LocasTheBoys/TheBoyss/blob/main/FPSCAP"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
 executeScripts(scripts)
