@@ -1,0 +1,25 @@
+--print("VPS 1")
+getgenv().Config = {
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "ClockCrate",
+    ["ALFS_HopServer"] = true,
+    ["ALFS_DelayHop"] = 15, --Auto List For Sale minutes
+    ["GemPrice"] = "99",
+    ["WH_MailSent"] = false,
+    ["MailName"] = "Gansdangvp2t",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoExchangeEvent"] = false,
+    ["ExchangeTier"] = 1,
+    ["AutoClaimEventPass"] = true,
+    ["AutoExchange"] = false,
+    ["AutoBuyEvent"] = true, --buy crates event
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["DeleteMap"] = true,
+    ["AutoRejoin"] = true,
+    ["BoostFPS"] = true,
+}
+getgenv().Key = "k29557962ec037367941922a"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
