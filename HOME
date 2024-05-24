@@ -1,17 +1,20 @@
---print("HOME")
-print("Full Script Is Running")
-local function executeScripts(scripts)
-    for _, script in ipairs(scripts) do
-        local co = coroutine.create(function()
-            loadstring(game:HttpGet(script))()
-        end)
-        coroutine.resume(co)
-    end
-end
-
-local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
+--print("KE 1 CLAIM SEND MAIL")
+getgenv().Config = {
+    ["AutoMail"] = true,
+    ["MailName"] = "PengepulGans1",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoExchangeEvent"] = false,
+    ["ExchangeTier"] = 1,
+    ["AutoClaimEventPass"] = true,
+    ["AutoExchange"] = false,
+    ["AutoBuyEvent"] = true, --buy crates event
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["DeleteMap"] = true,
+    ["AutoRejoin"] = true,
+    ["BoostFPS"] = true,
 }
+getgenv().Key = "kafef7341c38517d64860f29"
 
-executeScripts(scripts)
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
