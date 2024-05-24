@@ -2,7 +2,7 @@
 --print("KE 1 CLAIM SEND MAIL")
 getgenv().Config = {
     ["AutoMail"] = true,
-    ["MailName"] = "Gansdangvp2t",
+    ["MailName"] = "Gemsanda213",
     ["RequiredGem"] = 2000,
     ["DelayJoin"] = 15,
     ["AutoExchangeEvent"] = false,
