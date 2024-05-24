@@ -1,6 +1,7 @@
 --print("VPS 1")
 getgenv().Config = {
     ["WH_MailSent"] = false,
+    ["AutoMail"] = true,
     ["MailName"] = "Gansdangvp2t",
     ["RequiredGem"] = 3000,
     ["DelayJoin"] = 15,
