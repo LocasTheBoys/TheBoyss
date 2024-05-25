@@ -1,1 +1,9 @@
+--print("Template Set Awal Troops kibun")
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220428689142054982/1242957922372157530/kibun.json?ex=664fba45&is=664e68c5&hm=ee4044ce38194d5039ea84165a1766c95a90636aa93b831bc3e143920149ead7&"
+getgenv().Config = {
+    ["SelectMacro"] = "kibun",
+}
+getgenv().Key = "kafef7341c38517d64860f29"
 
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
