@@ -1,7 +1,12 @@
 --print("VPS 1")
---print("KE 1 CLAIM SEND MAIL")
+--print("KE 2 JUAL JUAL")
 getgenv().Config = {
-    ["AutoMail"] = true,
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "ClockCrate",
+    ["ALFS_HopServer"] = true,
+    ["ALFS_DelayHop"] = 10, --Auto List For Sale minutes
+    ["GemPrice"] = "78", --GANTI HARGANYA
+    ["WH_MailSent"] = false,
     ["MailName"] = "Gansdangvp2t",
     ["RequiredGem"] = 2000,
     ["DelayJoin"] = 15,
