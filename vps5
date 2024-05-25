@@ -1,5 +1,17 @@
-getgenv().configTable = {
-  discord_id = "346131680756498433",
-  password = "6h9uaio3cy",
+--print("VPS 4")
+print("Full Script Is Running")
+local function executeScripts(scripts)
+    for _, script in ipairs(scripts) do
+        local co = coroutine.create(function()
+            loadstring(game:HttpGet(script))()
+        end)
+        coroutine.resume(co)
+    end
+end
+
+local scripts = {
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps4ke2",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
-spawn(loadstring(game:HttpGet("https://gist.githubusercontent.com/AnigamiYT/1d2198c032377e104a7ffcfbefac5407/raw/gistfile1.txt")))
+
+executeScripts(scripts)
