@@ -1,6 +1,6 @@
 --print("Template Set Awal Troops kibun")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220428689142054982/1242957922372157530/kibun.json?ex=664fba45&is=664e68c5&hm=ee4044ce38194d5039ea84165a1766c95a90636aa93b831bc3e143920149ead7&"
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1220428689142054982/1242957922372157530/kibun.json?ex=66530605&is=6651b485&hm=f6c2657732bc05c2b36fc1e5211356f80b05607127896b222e31fb9974d290ee&"
 getgenv().Config = {
     ["SelectMacro"] = "kibun",
 }
