@@ -13,8 +13,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke4"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3"
 }
 
 executeScripts(scripts)
