@@ -1,2 +1,20 @@
 --print("FREE NOUSIGI RUMAH")
 
+--print("FREE NOUSIGI RUMAH")
+print("Full Script Is Running")
+local function executeScripts(scripts)
+    for _, script in ipairs(scripts) do
+        local co = coroutine.create(function()
+            loadstring(game:HttpGet(script))()
+        end)
+        coroutine.resume(co)
+    end
+end
+
+local scripts = {
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke4"
+}
+
+executeScripts(scripts)
