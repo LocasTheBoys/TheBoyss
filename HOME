@@ -1,25 +1,3 @@
 --print("FREE NOUSIGI RUMAH")
-getgenv().Config = {
-    ["AutoListForSale"] = true,
-    ["SelectProduct"] = "ClockCrate",
-    ["ALFS_HopServer"] = true,
-    ["ALFS_DelayHop"] = 15, --Auto List For Sale minutes
-    ["GemPrice"] = "87",
-    ["WH_MailSent"] = false,
-    ["MailName"] = "PengepulGans1",
-    ["RequiredGem"] = 2000,
-    ["DelayJoin"] = 15,
-    ["AutoExchangeEvent"] = false,
-    ["ExchangeTier"] = 1,
-    ["AutoClaimEventPass"] = true,
-    ["AutoExchange"] = false,
-    ["AutoBuyEvent"] = true, --buy crates event
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["DeleteMap"] = true,
-    ["AutoRejoin"] = true,
-    ["BoostFPS"] = true,
-}
-_G.key = "Your Key here"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
