@@ -1,18 +1,38 @@
 --print("FREE NOUSIGI RUMAH")
-print("Full Script Is Running")
-local function executeScripts(scripts)
-    for _, script in ipairs(scripts) do
-        local co = coroutine.create(function()
-            loadstring(game:HttpGet(script))()
-        end)
-        coroutine.resume(co)
-    end
+local SERVER_URL = "http://192.168.1.5:8080"
+
+local data = request(
+    {
+        Url = SERVER_URL,
+        Method = "GET"
+    }
+)
+
+local heartbeatDelay = game.HttpService:JSONDecode(data.Body)["heartbeatDelay"]
+
+local function sendRequest(reqType)
+    return request(
+        {
+            Url = SERVER_URL,
+            Method = "POST",
+            Body = {
+                requestType = reqType,
+                account = game:GetService("Players").LocalPlayer.Name
+            }
+        }
+    )
 end
 
-local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke4"
-}
+sendRequest("START")
 
-executeScripts(scripts)
+game:GetService("NetworkClient").ChildRemoved:Connect(function()
+    while true do
+        sendRequest("DISCONNECTED")
+        task.wait(1)
+    end
+end)
+
+while true do
+    sendRequest("HEARTBEAT")
+    task.wait(heartbeatDelay)
+end
