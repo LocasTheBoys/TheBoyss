@@ -4,7 +4,6 @@
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = true, --untuk naikin level
-    ["SelectChapter"] = "Chapter 1",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
     ["AutoSell"] = false,
@@ -28,7 +27,7 @@ getgenv().Config = {
     },
     ["AutoSave"] = false,
     ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = false,
+    ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
     ["PlayMacro"] = true,
     ["AutoLeave"] = true,
