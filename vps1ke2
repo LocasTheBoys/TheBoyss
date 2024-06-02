@@ -1,8 +1,8 @@
---print("VPS 1") --Anime Defender Clay
+--print("VPS 1") --Anime Defender Loi sampah
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
-    ["SelectChapter"] = "Infinite",
+    ["SelectChapter"] = "Chapter 1",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
     ["AutoSell"] = false,
@@ -11,7 +11,7 @@ getgenv().Config = {
     ["AutoSkip"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "reddog",
+    ["SelectMacro"] = "Loi3Unit",
     ["AutoJoinChallenge"] = false,
     ["HardMode"] = false,
     ["LeaveSellWave"] = 31,
