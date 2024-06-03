@@ -7,6 +7,7 @@ getgenv().Config = {
         ["Epic"] = false,
         ["Legendary"] = false,
         ["Rare"] = false
+},
 ["StandardSummonUnit"] = {
         ["Dragon Slayer"] = false,
         ["Shinobi Form 3"] = false,
