@@ -1,4 +1,6 @@
 --print("FREE NOUSIGI RUMAH")
+_G.key = "7e23d7c56cccaec911f0667319a26b714c871f1d8a832f71f60452426ec0a157"
+
 getgenv().Config = {
     ["AutoListForSale"] = true,
     ["SelectProduct"] = "ClockCrate",
@@ -21,7 +23,5 @@ getgenv().Config = {
     ["AutoRejoin"] = true,
     ["BoostFPS"] = true,
 }
-
-_G.key = "7e23d7c56cccaec911f0667319a26b714c871f1d8a832f71f60452426ec0a157"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
