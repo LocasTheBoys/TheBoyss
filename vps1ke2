@@ -1,47 +1,37 @@
---print("VPS 1") --Anime Defender Clay
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=665f4c88&is=665dfb08&hm=f8c6260f41ffb7d41d837d31f2de84da79e8841b11e58b502ac57ea4348a386b&"
+--print("VPS 1") --Anime Defender HuytuLavaWindInf
 getgenv().Config = {
-["AutoSummonStandard"] = false,
-["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
-["DeleteRarity"] = {
-        ["Epic"] = false,
-        ["Legendary"] = false,
-        ["Rare"] = false
-},
-["StandardSummonUnit"] = {
-        ["Dragon Slayer"] = false,
-        ["Shinobi Form 3"] = false,
-        ["Vengeful Shinobi"] = false,
-        ["Strongest Swordsman"] = false,
-        ["Admiral Of Lava"] = false,
-        ["The Gamer"] = false,
-        ["Chance Taker"] = false,
-        ["Ant King"] = false,
-        ["Esper"] = false,
-        ["Elf Wizardess"] = false,
-        ["Cursed Fighter"] = false,
-        ["Skull Warrior"] = false,
-        ["Thunder Shinobi"] = false,
-        ["Flame Dragon King"] = false,
-        ["Curse Prince"] = false,
-        ["Maxed Qi Master"] = false,
-        ["Carp"] = false,
-        ["Ascended Qi Master"] = false,
-        ["Spirit Hybrid"] = false,
-        ["Soulforce Reaper"] = false,
-        ["Admiral Of Ice"] = false,
-        ["Inferno Commander"] = false,
-        ["Pink Rockstar"] = false,
-        ["Fire Leg Master"] = false,
-        ["Sharpshooter"] = false,
-        ["Clay"] = false,
-        ["Admiral Of Light"] = false,
-        ["The Beast"] = false,
-        ["Bloomer"] = false,
-        ["Master Swordsman"] = false
-    },
-    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["JoinerCooldown"] = 3,
+    ["JoinHighest"] = false, --untuk naikin level
+    ["SelectChapter"] = "Infinite",
+    ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
+    ["AutoSell"] = false,
+    ["BlackScreen"] = false,
+    ["AutoReturnLobby"] = true,
+    ["AutoSkip"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["AutoJoinChallenge"] = false,
+    ["HardMode"] = false,
+    ["LeaveSellWave"] = 31,
+    ["AutoRejoin"] = true,
+    ["SelectReward"] = {
+        ["Trait Crystal"] = false,
+        ["Gold"] = false,
+        ["Star Rift (Rainbow)"] = false,
+        ["Gems"] = false,
+        ["Risky Dice"] = false,
+        ["Star Rift "] = false
+    },
+    ["AutoSave"] = false,
+    ["AutoReplay"] = true,
+    ["AutoJoinWorld"] = true,
+    ["BoostFPS"] = true,
+    ["PlayMacro"] = true,
+    ["AutoLeave"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1222839644346126368/7z-p1kLtKUxf1THgK4adiNf8mZ3YxjXqZGsaWdY5Ij5cr078oz7hrzyoFO_NQBk0-1-4",
 }
 getgenv().Key = "kf697d5f6169d63fda564b94"
 
