@@ -37,6 +37,6 @@ getgenv().Config = {
     ["WH_MatchComplete"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1225497933093404762/D5B_R10ptZGj4TcGeAELiMonSvA5dDPOQRndSlLLRIwZseq10waF_z1RjYQz7bj7Iuaf",
 }
-getgenv().Key = "k30613ef56544c2f5880324a"
+getgenv().Key = "k876dc4ddff1e681aaca8d9a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
