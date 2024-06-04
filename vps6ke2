@@ -1,41 +1,52 @@
---print("VPS 6") --gojo3
+--print("VPS 6") --GACHA CLAY ADMIRAL LAVA
+--print("TEMPLATE IMPORT MACRO")
+getgenv().EquipMacroTroop = true
+getgenv().ImportMacro = {
+    "https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=666073e5&is=665f2265&hm=8253c122153a02e733b4d08ed3ae8cc0e0c922f13e9d18db2c437a511449eb6b&",
+    "https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=665ff548&is=665ea3c8&hm=3d98ef70dfe5cb225bee980adfb4a1e161081cf7b1bf448ddb997d8975e1c2df&",
+}
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["AutoRejoin"] = true,
-    ["JoiningFailsafe"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "gojo3",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["ABE_Gift"] = true, --buy crates event
-    ["AutoBuyEvent"] = true,
-    ["BuyEventName"] = "dutsehet",
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["DelayJoin"] = "30",
-    ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchange"] = "false",
-    ["MailName"] = "RegemxOCEAN",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-        ["2xClocksBoost"] = true,
+["AutoSummonStandard"] = false,
+["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
+["DeleteRarity"] = {
+        ["Epic"] = false,
+        ["Legendary"] = false,
+        ["Rare"] = false
+},
+["StandardSummonUnit"] = {
+        ["Dragon Slayer"] = false,
+        ["Shinobi Form 3"] = false,
+        ["Vengeful Shinobi"] = false,
+        ["Strongest Swordsman"] = false,
+        ["Admiral Of Lava"] = false,
+        ["The Gamer"] = false,
+        ["Chance Taker"] = false,
+        ["Ant King"] = false,
+        ["Esper"] = false,
+        ["Elf Wizardess"] = false,
+        ["Cursed Fighter"] = false,
+        ["Skull Warrior"] = false,
+        ["Thunder Shinobi"] = false,
+        ["Flame Dragon King"] = false,
+        ["Curse Prince"] = false,
+        ["Maxed Qi Master"] = false,
+        ["Carp"] = false,
+        ["Ascended Qi Master"] = false,
+        ["Spirit Hybrid"] = false,
+        ["Soulforce Reaper"] = false,
+        ["Admiral Of Ice"] = false,
+        ["Inferno Commander"] = false,
+        ["Pink Rockstar"] = false,
+        ["Fire Leg Master"] = false,
+        ["Sharpshooter"] = false,
+        ["Clay"] = false,
+        ["Admiral Of Light"] = false,
+        ["The Beast"] = false,
+        ["Bloomer"] = false,
+        ["Master Swordsman"] = false
     },
-    ["UseAll"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z",
+    ["SelectMacro"] = "Clay4Unit",
+    ["AutoClaimQuest"] = true,
 }
 getgenv().Key = "k30613ef56544c2f5880324a"
 
