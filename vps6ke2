@@ -1,10 +1,6 @@
 --print("VPS 6") --GACHA CLAY ADMIRAL LAVA
 --print("TEMPLATE IMPORT MACRO")
 getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = {
-    "https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=666073e5&is=665f2265&hm=8253c122153a02e733b4d08ed3ae8cc0e0c922f13e9d18db2c437a511449eb6b&",
-    "https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=665ff548&is=665ea3c8&hm=3d98ef70dfe5cb225bee980adfb4a1e161081cf7b1bf448ddb997d8975e1c2df&",
-}
 getgenv().Config = {
 ["AutoSummonStandard"] = false,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
