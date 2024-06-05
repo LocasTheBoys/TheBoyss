@@ -1,60 +1,37 @@
---print("GACHA SUMMON") --GACHA SUMMON
-getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = {
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=666146c8&is=665ff548&hm=c54756cf756de983ca6f926c0eda252c7e7dd3f2ee6f9982caa7574d1f118d57&",
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=6661c565&is=666073e5&hm=d90018e412eebe0759bf7bd577709ecb2aff00a556f613570b65355022a2a51d&",
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6661e8fa&is=6660977a&hm=ef06ba20769d918ba3376b102125fb7346c973f9b4a182cf3d611ba490b38182&",
-}
+--print("VPS 4") --GACHA Edan
 getgenv().Config = {
-["AutoSummonStandard"] = false,
-["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
-["DeleteRarity"] = {
-        ["Epic"] = false,
-        ["Legendary"] = false,
-        ["Rare"] = false
-},
-["AutoSummonLimited"] = true,
-["LimitedSummonUnit"] = {
-        ["Donut Warrior"] = false,
-        ["The Cursed Knight"] = true,
-        ["Ocean Guardian"] = false,
-        ["Warrior Princess"] = true,
-        ["Electric Cyborg"] = false
-},
-["StandardSummonUnit"] = {
-        ["Dragon Slayer"] = false,
-        ["Shinobi Form 3"] = false,
-        ["Vengeful Shinobi"] = false,
-        ["Strongest Swordsman"] = false,
-        ["Admiral Of Lava"] = true,--Penting
-        ["The Gamer"] = false,
-        ["Chance Taker"] = false,
-        ["Ant King"] = false,
-        ["Esper"] = false,
-        ["Elf Wizardess"] = false,
-        ["Cursed Fighter"] = false,
-        ["Skull Warrior"] = false,
-        ["Thunder Shinobi"] = false,
-        ["Flame Dragon King"] = false,
-        ["Curse Prince"] = false,
-        ["Maxed Qi Master"] = false,
-        ["Carp"] = false,
-        ["Ascended Qi Master"] = false,
-        ["Spirit Hybrid"] = false,
-        ["Soulforce Reaper"] = false,
-        ["Admiral Of Ice"] = false,
-        ["Inferno Commander"] = false,
-        ["Pink Rockstar"] = false,
-        ["Fire Leg Master"] = false,
-        ["Sharpshooter"] = false,
-        ["Clay"] = true,--Penting
-        ["Admiral Of Light"] = false,
-        ["The Beast"] = false,
-        ["Bloomer"] = true, --Penting
-        ["Master Swordsman"] = false
-    },
+    ["JoinerCooldown"] = 3,
+    ["JoinHighest"] = false, --untuk naikin level
+    ["SelectChapter"] = "Chapter 1",
+    ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
+    ["AutoSell"] = false,
+    ["BlackScreen"] = false,
+    ["AutoReturnLobby"] = true,
+    ["AutoSkip"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["IgnoreMacroTiming"] = true,
     ["SelectMacro"] = "edan",
+    ["AutoJoinChallenge"] = false,
+    ["HardMode"] = false,
+    ["LeaveSellWave"] = 31,
+    ["AutoRejoin"] = true,
+    ["SelectReward"] = {
+        ["Trait Crystal"] = false,
+        ["Gold"] = false,
+        ["Star Rift (Rainbow)"] = false,
+        ["Gems"] = false,
+        ["Risky Dice"] = false,
+        ["Star Rift "] = false
+    },
+    ["AutoSave"] = false,
+    ["AutoReplay"] = true,
+    ["AutoJoinWorld"] = true,
+    ["BoostFPS"] = true,
+    ["PlayMacro"] = true,
+    ["AutoLeave"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z",
 }
 getgenv().Key = "k6adfd943ab167da9719b645"
 
