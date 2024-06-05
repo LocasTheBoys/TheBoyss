@@ -54,6 +54,7 @@ getgenv().Config = {
         ["Master Swordsman"] = false
     },
     ["AutoClaimQuest"] = true,
+    ["SelectMacro"] = "edan",
 }
 getgenv().Key = "k6adfd943ab167da9719b645"
 
