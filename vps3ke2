@@ -1,41 +1,61 @@
---print("VPS 3") --Loisprite
+--print("VPS 3") -- edan leling
+--print("GACHA SUMMON") --GACHA SUMMON
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = {
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=6661ef88&is=66609e08&hm=28670ff7fe9d72d45c7035d29e760276c1b540dc45101e7096a66241f72a71ca&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=6661c565&is=666073e5&hm=d90018e412eebe0759bf7bd577709ecb2aff00a556f613570b65355022a2a51d&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6661e8fa&is=6660977a&hm=ef06ba20769d918ba3376b102125fb7346c973f9b4a182cf3d611ba490b38182&",
+}
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["AutoRejoin"] = true,
-    ["JoiningFailsafe"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "loisprite",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["ABE_Gift"] = true, --buy crates event
-    ["AutoBuyEvent"] = true,
-    ["BuyEventName"] = "linokbr",
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["DelayJoin"] = "30",
-    ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchange"] = "false",
-    ["MailName"] = "BoysaGemslota",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-        ["2xClocksBoost"] = true,
+["AutoSummonStandard"] = false,
+["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
+["DeleteRarity"] = {
+        ["Epic"] = false,
+        ["Legendary"] = false,
+        ["Rare"] = false
+},
+["AutoSummonLimited"] = true,
+["LimitedSummonUnit"] = {
+        ["Donut Warrior"] = false,
+        ["The Cursed Knight"] = true,
+        ["Ocean Guardian"] = false,
+        ["Warrior Princess"] = true,
+        ["Electric Cyborg"] = false
+},
+["StandardSummonUnit"] = {
+        ["Dragon Slayer"] = false,
+        ["Shinobi Form 3"] = false,
+        ["Vengeful Shinobi"] = false,
+        ["Strongest Swordsman"] = false,
+        ["Admiral Of Lava"] = true,--Penting
+        ["The Gamer"] = false,
+        ["Chance Taker"] = false,
+        ["Ant King"] = false,
+        ["Esper"] = false,
+        ["Elf Wizardess"] = false,
+        ["Cursed Fighter"] = false,
+        ["Skull Warrior"] = false,
+        ["Thunder Shinobi"] = false,
+        ["Flame Dragon King"] = false,
+        ["Curse Prince"] = false,
+        ["Maxed Qi Master"] = false,
+        ["Carp"] = false,
+        ["Ascended Qi Master"] = false,
+        ["Spirit Hybrid"] = false,
+        ["Soulforce Reaper"] = false,
+        ["Admiral Of Ice"] = false,
+        ["Inferno Commander"] = false,
+        ["Pink Rockstar"] = false,
+        ["Fire Leg Master"] = false,
+        ["Sharpshooter"] = false,
+        ["Clay"] = true,--Penting
+        ["Admiral Of Light"] = false,
+        ["The Beast"] = false,
+        ["Bloomer"] = true, --Penting
+        ["Master Swordsman"] = false
     },
-    ["UseAll"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1225497933093404762/D5B_R10ptZGj4TcGeAELiMonSvA5dDPOQRndSlLLRIwZseq10waF_z1RjYQz7bj7Iuaf",
+    ["AutoClaimQuest"] = true,
+    ["SelectMacro"] = "edan",
 }
 getgenv().Key = "k876dc4ddff1e681aaca8d9a"
 
