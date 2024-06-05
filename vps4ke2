@@ -6,7 +6,7 @@ getgenv().ImportMacro = {
 "https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6661e8fa&is=6660977a&hm=ef06ba20769d918ba3376b102125fb7346c973f9b4a182cf3d611ba490b38182&",
 }
 getgenv().Config = {
-["AutoSummonStandard"] = true,
+["AutoSummonStandard"] = false,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
 ["DeleteRarity"] = {
         ["Epic"] = false,
