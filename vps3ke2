@@ -1,5 +1,7 @@
 --print("VPS 3") -- edan
+getgenv().EquipMacroUnit = true
 getgenv().Config = {
+["SelectMacro"] = "HuytuLavaWindInf",
 ["AutoSummonStandard"] = true,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
 ["DeleteRarity"] = {
