@@ -1,6 +1,8 @@
 --print("VPS 4") --GACHA Edan
 --print("VPS 4") --GACHA CLAY ADMIRAL LAVA
+getgenv().EquipMacroUnit = true
 getgenv().Config = {
+["SelectMacro"] = "HuytuLavaWindInf",
 ["AutoSummonStandard"] = true,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
 ["DeleteRarity"] = {
