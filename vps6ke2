@@ -40,7 +40,7 @@ getgenv().Config = {
         ["Clay"] = true,
         ["Admiral Of Light"] = false,
         ["The Beast"] = false,
-        ["Bloomer"] = false,
+        ["Bloomer"] = true,
         ["Master Swordsman"] = false
     },
     ["AutoClaimQuest"] = true,
