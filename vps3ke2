@@ -1,4 +1,3 @@
-
 --print("VPS 3") -- edan
 getgenv().Config = {
 ["AutoSummonStandard"] = true,
