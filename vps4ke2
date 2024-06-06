@@ -8,6 +8,7 @@ getgenv().Config = {
         ["Legendary"] = false,
         ["Rare"] = false
 },
+["AutoSave"] = true,
 ["StandardSummonUnit"] = {
         ["Dragon Slayer"] = false,
         ["Shinobi Form 3"] = false,
