@@ -1,6 +1,7 @@
 --print("VPS 6") --GACHA CLAY ADMIRAL LAVA
 --print("GACHA SUMMON") --GACHA SUMMON
 getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=66648bfa&is=66633a7a&hm=a220f0459068407359f45d8dc75da2ff749e70a9c08deeb467a21a5411da9c62&"
 getgenv().Config = {
 ["AutoSummonStandard"] = true,
 ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
@@ -9,12 +10,12 @@ getgenv().Config = {
         ["Legendary"] = false,
         ["Rare"] = false
 },
-["AutoSummonLimited"] = false,
+["AutoSummonLimited"] = true,
 ["LimitedSummonUnit"] = {
         ["Donut Warrior"] = false,
         ["The Cursed Knight"] = false,
         ["Ocean Guardian"] = false,
-        ["Warrior Princess"] = false,--Penting
+        ["Warrior Princess"] = true,--Penting
         ["Electric Cyborg"] = false
 },
 ["StandardSummonUnit"] = {
@@ -50,7 +51,7 @@ getgenv().Config = {
         ["Master Swordsman"] = false
     },
     ["AutoClaimQuest"] = true,
-    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["SelectMacro"] = "edan",
 }
 getgenv().Key = "k30613ef56544c2f5880324a"
 
