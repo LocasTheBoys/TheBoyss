@@ -1,6 +1,4 @@
 --print("FREE NOUSIGI RUMAH")
-_G.key = "7e23d7c56cccaec911f0667319a26b714c871f1d8a832f71f60452426ec0a157"
-
 --print("GACHA SUMMON") --GACHA SUMMON
 getgenv().EquipMacroUnit = true
 getgenv().ImportMacro = {
@@ -59,5 +57,7 @@ getgenv().Config = {
     ["AutoClaimQuest"] = true,
     ["SelectMacro"] = "edan",
 }
+
+_G.key = "e01924b0543bfa92ff5e6c51c223b5ad139ab623a16a3b574501f635898f9663"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
