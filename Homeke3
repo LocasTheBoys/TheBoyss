@@ -1,6 +1,6 @@
 --print("FREE NOUSIGI RUMAH")
 --print("GACHA SUMMON") --GACHA SUMMON
---print("VPS 6") --GACHA CLAY ADMIRAL LAVA
+--print("HOME") --GACHA CLAY ADMIRAL LAVA
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
