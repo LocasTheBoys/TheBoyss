@@ -1,27 +1,63 @@
 --print("FREE NOUSIGI RUMAH")
 _G.key = "7e23d7c56cccaec911f0667319a26b714c871f1d8a832f71f60452426ec0a157"
 
+--print("GACHA SUMMON") --GACHA SUMMON
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = {
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6665dd7a&is=66648bfa&hm=6cf328f43fa312a82bad386a417bca3e7c234e7bcf1e9d338c73ef3bf2c54641&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=6665b9e5&is=66646865&hm=da6bd2046f632e7d4b8caa9549b745ab1bb657b84406a09d58a2cd3632749b24&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=6665e408&is=66649288&hm=9eb866980c0d4c26302df129364872335ba92cf2cf8a81525a1903b083342ba8&",
+}
 getgenv().Config = {
-    ["AutoListForSale"] = true,
-    ["SelectProduct"] = "ClockCrate",
-    ["ALFS_HopServer"] = true,
-    ["ALFS_DelayHop"] = 10, --Auto List For Sale minutes
-    ["GemPrice"] = "60",
-    ["WH_MailSent"] = false,
-    ["AutoMail"] = false,
-    ["MailName"] = "PengepulGans1",
-    ["RequiredGem"] = 2000,
-    ["DelayJoin"] = 15,
-    ["AutoExchangeEvent"] = false,
-    ["ExchangeTier"] = 1,
-    ["AutoClaimEventPass"] = true,
-    ["AutoExchange"] = false,
-    ["AutoBuyEvent"] = true, --buy crates event
+["AutoSummonStandard"] = true,
+["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
+["DeleteRarity"] = {
+        ["Epic"] = false,
+        ["Legendary"] = false,
+        ["Rare"] = false
+},
+["AutoSummonLimited"] = true,
+["LimitedSummonUnit"] = {
+        ["Donut Warrior"] = true,
+        ["The Cursed Knight"] = false,
+        ["Ocean Guardian"] = false,
+        ["Warrior Princess"] = true,--Penting
+        ["Electric Cyborg"] = false
+},
+["StandardSummonUnit"] = {
+        ["Dragon Slayer"] = false,
+        ["Shinobi Form 3"] = false,
+        ["Vengeful Shinobi"] = false,
+        ["Strongest Swordsman"] = false,
+        ["Admiral Of Lava"] = false,--Penting
+        ["The Gamer"] = false,
+        ["Chance Taker"] = false,
+        ["Ant King"] = false,
+        ["Esper"] = false,
+        ["Elf Wizardess"] = false,
+        ["Cursed Fighter"] = false,
+        ["Skull Warrior"] = false,
+        ["Thunder Shinobi"] = false,
+        ["Flame Dragon King"] = false,
+        ["Curse Prince"] = false,
+        ["Maxed Qi Master"] = false,
+        ["Carp"] = false,
+        ["Ascended Qi Master"] = false,
+        ["Spirit Hybrid"] = false,
+        ["Soulforce Reaper"] = false,
+        ["Admiral Of Ice"] = false,
+        ["Inferno Commander"] = false,
+        ["Pink Rockstar"] = false,
+        ["Fire Leg Master"] = false,
+        ["Sharpshooter"] = false,
+        ["Clay"] = false,--Penting
+        ["Admiral Of Light"] = false,
+        ["The Beast"] = false,
+        ["Bloomer"] = false, --Penting
+        ["Master Swordsman"] = false
+    },
     ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["DeleteMap"] = true,
-    ["AutoRejoin"] = true,
-    ["BoostFPS"] = true,
+    ["SelectMacro"] = "edan",
 }
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
