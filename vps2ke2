@@ -1,14 +1,37 @@
---print("VPS 2") - HuytuLavaWindInf
---print("TEMPLATE IMPORT MACRO")
-getgenv().EquipMacroUnit = true
-getgenv().ImportMacro = {
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6665dd7a&is=66648bfa&hm=6cf328f43fa312a82bad386a417bca3e7c234e7bcf1e9d338c73ef3bf2c54641&",
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=6665b9e5&is=66646865&hm=da6bd2046f632e7d4b8caa9549b745ab1bb657b84406a09d58a2cd3632749b24&",
-"https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=6665e408&is=66649288&hm=9eb866980c0d4c26302df129364872335ba92cf2cf8a81525a1903b083342ba8&",
-}
+--print("VPS 2") --Anime Defender HuytuLavaWindInf
 getgenv().Config = {
-    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["JoinerCooldown"] = 3,
+    ["JoinHighest"] = true, --untuk naikin level
+    ["SelectChapter"] = "Infinite",
+    ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
+    ["AutoSell"] = false,
+    ["BlackScreen"] = false,
+    ["AutoReturnLobby"] = true,
+    ["AutoSkip"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["AutoJoinChallenge"] = false,
+    ["HardMode"] = false,
+    ["LeaveSellWave"] = 31,
+    ["AutoRejoin"] = true,
+    ["SelectReward"] = {
+        ["Trait Crystal"] = false,
+        ["Gold"] = false,
+        ["Star Rift (Rainbow)"] = false,
+        ["Gems"] = false,
+        ["Risky Dice"] = false,
+        ["Star Rift "] = false
+    },
+    ["AutoSave"] = false,
+    ["AutoReplay"] = true,
+    ["AutoJoinWorld"] = true,
+    ["BoostFPS"] = true,
+    ["PlayMacro"] = true,
+    ["AutoLeave"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1224377074895294627/s7HjVGI8HInt7Vd84ebr-NyRAH4fT4I_98y_T0jDnnX-ElSk7SX6XE1ujM9sqw5r90dN",
 }
 getgenv().Key = "k1d4c4ef02abd76e7af93906"
 
