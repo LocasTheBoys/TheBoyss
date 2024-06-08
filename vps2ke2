@@ -1,41 +1,14 @@
---print("VPS 2") - gojo3
+--print("VPS 2") - HuytuLavaWindInf
+--print("TEMPLATE IMPORT MACRO")
+getgenv().EquipMacroUnit = true
+getgenv().ImportMacro = {
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247955875260530823/edan.json?ex=6665dd7a&is=66648bfa&hm=6cf328f43fa312a82bad386a417bca3e7c234e7bcf1e9d338c73ef3bf2c54641&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247555280439611422/Clay4Unit.json?ex=6665b9e5&is=66646865&hm=da6bd2046f632e7d4b8caa9549b745ab1bb657b84406a09d58a2cd3632749b24&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1247238135868428349/HuytuLavaWindInf.json?ex=6665e408&is=66649288&hm=9eb866980c0d4c26302df129364872335ba92cf2cf8a81525a1903b083342ba8&",
+}
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["AutoRejoin"] = true,
-    ["JoiningFailsafe"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "TimeFactory (Rewind)",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "gojo3",
-    ["AutoSkip"] = true,
-    ["DeleteMap"] = true,
-    ["PlayMacro"] = true,
-    ["AutoSave"] = true,
-    ["BoostFPS"] = true,
-    ["ABE_Gift"] = true, --buy crates event
-    ["AutoBuyEvent"] = true,
-    ["BuyEventName"] = "Coolwaguye",
+    ["SelectMacro"] = "HuytuLavaWindInf",
     ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["DelayJoin"] = "30",
-    ["PlacingFailsafe"] = true,
-    ["ExchangeTier"] = "1",
-    ["AutoExchange"] = "false",
-    ["MailName"] = "Gemsanda213",
-    ["RequiredGem"] = 1000,
-    ["AutoMail"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost"] = true,
-        ["2xEggsBoost"] = true,
-        ["2xClocksBoost"] = true,
-    },
-    ["UseAll"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1224377074895294627/s7HjVGI8HInt7Vd84ebr-NyRAH4fT4I_98y_T0jDnnX-ElSk7SX6XE1ujM9sqw5r90dN",
 }
 getgenv().Key = "k1d4c4ef02abd76e7af93906"
 
