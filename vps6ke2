@@ -12,7 +12,7 @@ getgenv().Config = {
 },
 ["AutoSummonLimited"] = true,
 ["LimitedSummonUnit"] = {
-        ["Donut Warrior"] = false,
+        ["Donut Warrior"] = true,
         ["The Cursed Knight"] = false,
         ["Ocean Guardian"] = false,
         ["Warrior Princess"] = true,--Penting
