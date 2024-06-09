@@ -1,7 +1,7 @@
 --print("VPS 2") --Anime Defender HuytuLavaWindInf
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = true, --untuk naikin level
+    ["JoinHighest"] = false, --untuk naikin level
     ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
