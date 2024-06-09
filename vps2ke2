@@ -24,7 +24,7 @@ getgenv().Config = {
         ["Risky Dice"] = false,
         ["Star Rift "] = false
     },
-    ["AutoSave"] = false,
+    ["AutoSave"] = true,
     ["AutoReplay"] = true,
     ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
