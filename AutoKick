@@ -4,7 +4,7 @@ local function kickPlayer(player, duration)
 end
 
 -- UBAHLAH SESUAI KEBUTUHAN (15 menit = 900 detik)
-local kickDuration = 15 * 60
+local kickDuration = 8 * 60
 
 
 local Players = game:GetService("Players")
