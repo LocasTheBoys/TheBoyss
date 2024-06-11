@@ -1,0 +1,26 @@
+local function kickPlayer(player, duration)
+    wait(duration)
+    player:Kick("You have been kicked from the game for 15 minutes.")
+end
+
+-- UBAHLAH SESUAI KEBUTUHAN (15 menit = 900 detik)
+local kickDuration = 15 * 60
+
+
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+kickPlayer(localPlayer, kickDuration)
+
+-- Script auto rejoin after promt kick
+repeat wait() until game.CoreGui:FindFirstChild('RobloxPromptGui')
+
+local lp, po, ts = game:GetService('Players').LocalPlayer, game.CoreGui.RobloxPromptGui.promptOverlay, game:GetService('TeleportService')
+
+po.ChildAdded:Connect(function(a)
+    if a.Name == 'ErrorPrompt' then
+        repeat
+            ts:Teleport(game.PlaceId)
+            wait(2)
+        until false
+    end
+end)
