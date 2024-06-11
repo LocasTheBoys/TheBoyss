@@ -1,4 +1,4 @@
---print("VPS 6") --Anime Defender HuytuLavaWindInf
+--print("VPS 6") --Anime Defender korekpantad
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
