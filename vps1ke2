@@ -48,8 +48,9 @@ getgenv().Config = {
     },
     ["AutoSave"] = false,
     ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = false, --PENTING
+    ["AutoJoinWorld"] = true,--INI PENTING
     ["BoostFPS"] = true,
+    ["DeleteMap"] = false,
     ["PlayMacro"] = true,
     ["AutoLeave"] = true,
     ["WH_MatchComplete"] = true,
