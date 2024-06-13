@@ -1,4 +1,12 @@
 --print("VPS 1") --Anime Defender HuytuLavaWindInf
+getgenv().ImportMacro = {
+"https://cdn.discordapp.com/attachments/1250927336535359499/1250937136996421703/WindmillChallenger.json?ex=666cc17e&is=666b6ffe&hm=2e0c6d660b1f3fd2d2d354503e5687e54429c278835124f53bb3d90ddc3ae817&",
+"https://cdn.discordapp.com/attachments/1250927336535359499/1250937137482829904/MobCityChallenger.json?ex=666cc17e&is=666b6ffe&hm=08b76e801094b5b21890aeeeeee2368aa19a084b47dfc6b3833a8bc825ba0303&",
+"https://cdn.discordapp.com/attachments/1250927336535359499/1250937137805660231/CursedAcademyChallenger.json?ex=666cc17e&is=666b6ffe&hm=3a0ad6ccc5b320e02f05d8561e100a0933f848e9250b26f053d9a6b3e5a9e08e&",
+"https://cdn.discordapp.com/attachments/1250927336535359499/1250937138095329371/BluePlanetChallenger.json?ex=666cc17f&is=666b6fff&hm=771a6ae8a422c6f7978668d976331cacef9633b5f518d4b0dc6bd64660a72f29&",
+"https://cdn.discordapp.com/attachments/1250927336535359499/1250937138397188156/UnderWaterChallenger.json?ex=666cc17f&is=666b6fff&hm=5f686a7a26fc1141c6de184c4abcd2e72459cf7fecea663c85fce5fc3700415c&",
+"https://cdn.discordapp.com/attachments/1246184089828982935/1250129739256172694/korekpantad.json?ex=666c748c&is=666b230c&hm=a13e59022e91ddca7d9d14094095db979488083df1b5bbecbc11aa9da8cb442f&",
+}
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
