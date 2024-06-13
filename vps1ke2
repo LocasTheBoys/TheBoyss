@@ -48,7 +48,7 @@ getgenv().Config = {
     },
     ["AutoSave"] = false,
     ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = false,
+    ["AutoJoinWorld"] = true, --PENTING
     ["BoostFPS"] = true,
     ["PlayMacro"] = true,
     ["AutoLeave"] = true,
