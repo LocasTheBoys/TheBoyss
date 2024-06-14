@@ -1,7 +1,7 @@
 --print("VPS 1") --Anime Defender HuytuLavaWindInf
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = true, --untuk naikin level
+    ["JoinHighest"] = false, --untuk naikin level
     ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
@@ -11,33 +11,11 @@ getgenv().Config = {
     ["AutoSkip"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "MobCityChallenger",
+    ["SelectMacro"] = "HuytuLavaWindInf",
+    ["AutoJoinChallenge"] = false,
     ["HardMode"] = false,
     ["LeaveSellWave"] = 31,
     ["AutoRejoin"] = true,
-    ["AutoJoinChallenge"] = false, --INI PENTING
-    ["SelectDifficulty"] = {
-	["All units lowered range"] = true,
-	["All enemies regen health"] = true,
-	["All enemies +1 shield"] = true,
-	["All units increased cost"] = true,
-	["All enemies 2x health"] = true,
-	["All enemies 2x speed"] = true
-    },
-    ["SelectChallengeMacro"] = {
-        ["Mob City"] = "MobCityChallenger",
-        ["Cursed Academy"] = "CursedAcademyChallenger",
-	["Blue Planet"] = "BluePlanetChallenger",
-        ["Windmill Village"] = "WindmillChallenger",
-        ["Underwater Temple"] = "UnderWaterChallenger"
-    },
-    ["SelectChallengeWorld"] = {
-        ["Mob City"] = true,
-        ["Cursed Academy"] = true,
-	["Blue Planet"] = true,
-        ["Windmill Village"] = true,
-        ["Underwater Temple"] = true
-    },
     ["SelectReward"] = {
         ["Trait Crystal"] = false,
         ["Gold"] = false,
@@ -48,9 +26,8 @@ getgenv().Config = {
     },
     ["AutoSave"] = false,
     ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = true,--INI PENTING
+    ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
-    ["DeleteMap"] = false,
     ["PlayMacro"] = true,
     ["AutoLeave"] = true,
     ["WH_MatchComplete"] = true,
