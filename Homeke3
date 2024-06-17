@@ -1,8 +1,8 @@
 --print("FREE NOUSIGI RUMAH")
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = true, --untuk naikin level
-    ["SelectChapter"] = "Infinite",
+    ["JoinHighest"] = false, --untuk naikin level
+    ["SelectChapter"] = "Chapter 1",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
     ["AutoSell"] = false,
