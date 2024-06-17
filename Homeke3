@@ -15,7 +15,6 @@ getgenv().Config = {
 		["Windmill Village"] = false
 	},
 	["IgnoreMacroTiming"] = false,
-	["SelectMacro"] = "HuytuLavaWindInf",
 	["JoinerList"] = {
 		[1] = "No joiner in the list"
 	},
