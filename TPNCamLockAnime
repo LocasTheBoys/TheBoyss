@@ -1,0 +1,30 @@
+repeat task.wait() until game:IsLoaded()
+wait(5) --waktu tunggu
+print("Player Teleporting TDS Run")
+local allowedPlaceId = 17018663967 --chapter 1
+
+if game.PlaceId == allowedPlaceId then
+    -- Script hanya dijalankan jika PlaceId sesuai
+    print("Script dijalankan di tempat yang diizinkan.")
+    
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1676.37, 28.39, -532.3)
+end
+
+local function lockCameraAbovePlayerHead()
+    local player = game.Players.LocalPlayer
+    local character = player.Character
+    local camera = game.Workspace.CurrentCamera
+    if character and camera then
+        local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+        if humanoidRootPart then
+            local cameraHeightAboveHead = 50 -- Jarak kamera di atas kepala
+            local cameraPosition = humanoidRootPart.Position + Vector3.new(0, cameraHeightAboveHead, 0)
+            camera.CFrame = CFrame.new(cameraPosition, humanoidRootPart.Position)
+            camera.CameraType = Enum.CameraType.Scriptable
+            camera.HeadLocked = true
+            player:GetMouse().ViewportSize = Vector2.new(0, 0)
+        end
+    end
+end
+
+lockCameraAbovePlayerHead()
