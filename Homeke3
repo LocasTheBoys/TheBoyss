@@ -3,6 +3,7 @@ getgenv().Config = {
 	["AutoSave"] = false,
 	["WH_MatchComplete"] = true,
 	["AutoSkip"] = true,
+    	["SelectChapter"] = "Chapter 1",
 	["SelectWorld"] = "Windmill Village",
 	["TPLobbyIfPlayer"] = true,
 	["SelectChallengeWorld"] = {
