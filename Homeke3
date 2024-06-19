@@ -56,7 +56,7 @@ getgenv().Config = {
 		["Windmill Village"] = 3.25
 	},
 	["MiddlePos"] = {
-		["Windmill Village"] = "-1669.0172119140625, 24.114013671875, -522.0406494140625"
+		["Windmill Village"] = "-1675.686767578125, 24.114013671875, -533.9232177734375"
 	},
 	["UpgradeAndPlace"] = true,
 	["AutoJoinChallenge"] = false,
