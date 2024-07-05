@@ -1,0 +1,6 @@
+_G.Config = {
+    UserID = "2b9316b1-e879-4168-a9b8-bdd12b6e54f2",
+    discord_id = 346131680756498433,
+    Note = "VPS 3",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/animedefender"))()
