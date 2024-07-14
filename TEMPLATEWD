@@ -1,0 +1,7 @@
+--print("VPS WD TEMPLATE") --anime korekpantad
+getgenv().Config = {
+    ["AutoSave"] = false,
+}
+getgenv().Key = "kafef7341c38517d64860f29" --GANTI KEY
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
