@@ -1,4 +1,4 @@
---print("VPS 5")
+--print("TEMPLATE WD")
 print("Full Script Is Running")
 local function executeScripts(scripts)
     for _, script in ipairs(scripts) do
@@ -10,7 +10,8 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke3",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/TEMPLATEWD", -- Nousigi PASTIKAN GANTI KEY DI GITHUBNYA
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke3", --Sesuaikan namanya dengan VPS yang akan di WD
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
