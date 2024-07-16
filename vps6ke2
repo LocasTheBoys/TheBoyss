@@ -5,6 +5,7 @@ getgenv().Config = {
     ["SelectChapter"] = "Infinite",
     ["SelectWorld"] = "Windmill Village",
     ["AutoClaimQuest"] = true,
+    ["AutoClaimBattlePass"] = true,
     ["AutoSell"] = false,
     ["BlackScreen"] = false,
     ["AutoReturnLobby"] = true,
