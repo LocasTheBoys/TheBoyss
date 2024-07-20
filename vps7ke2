@@ -1,1 +1,39 @@
+--print("VPS 7") --Anime Defender korekpantad
+getgenv().Config = {
+    ["JoinerCooldown"] = 3,
+    ["JoinHighest"] = false, --untuk naikin level
+    ["SelectChapter"] = "Infinite",
+    ["SelectWorld"] = "Windmill Village",
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimBattlePass"] = true,
+    ["AutoSell"] = false,
+    ["BlackScreen"] = false,
+    ["AutoReturnLobby"] = true,
+    ["AutoSkip"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "korekpantad",
+    ["AutoJoinChallenge"] = false,
+    ["HardMode"] = false,
+    ["LeaveSellWave"] = 31,
+    ["AutoRejoin"] = true,
+    ["SelectReward"] = {
+        ["Trait Crystal"] = false,
+        ["Gold"] = false,
+        ["Star Rift (Rainbow)"] = false,
+        ["Gems"] = false,
+        ["Risky Dice"] = false,
+        ["Star Rift "] = false
+    },
+    ["AutoSave"] = false,
+    ["AutoReplay"] = true,
+    ["AutoJoinWorld"] = true,
+    ["BoostFPS"] = true,
+    ["PlayMacro"] = true,
+    ["AutoLeave"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+}
+getgenv().Key = "k29557962ec037367941922a"
 
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
