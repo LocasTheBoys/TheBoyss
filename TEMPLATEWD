@@ -2,6 +2,6 @@
 getgenv().Config = {
     ["AutoSave"] = false,
 }
-getgenv().Key = "k30613ef56544c2f5880324a" --GANTI KEY
+getgenv().Key = "kf697d5f6169d63fda564b94" --GANTI KEY
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
