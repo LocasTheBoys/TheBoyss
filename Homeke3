@@ -1,95 +1,16 @@
 --print("FREE NOUSIGI RUMAH")
+
 getgenv().Config = {
-	["AutoSave"] = false,
-	["WH_MatchComplete"] = true,
-	["AutoSkip"] = true,
-    	["SelectChapter"] = "Chapter 1",
-	["SelectWorld"] = "Windmill Village",
-	["TPLobbyIfPlayer"] = true,
-	["SelectChallengeWorld"] = {
-		["Cursed Academy"] = false,
-		["Blue Planet"] = false,
-		["Snowy Woods"] = false,
-		["Underwater Temple"] = false,
-		["Swordsman Dojo"] = false,
-		["Mob City"] = false,
-		["Windmill Village"] = false
-	},
-	["IgnoreMacroTiming"] = false,
-	["JoinerList"] = {
-		[1] = "No joiner in the list"
-	},
-	["AutoJoinRaid"] = false,
-	["PlayMacro"] = false,
-	["BoostFPS"] = true,
-	["AutoLeave"] = true,
-	["JoinerCooldown"] = 3,
-	["AutoSell"] = false,
-	["BlackScreen"] = false,
-	["AutoReturnLobby"] = false,
-	["OFARecord"] = false,
-	["WH_BannerSummoned"] = true,
-	["SelectRaidMacro"] = {
-
-	},
-	["SelectChallengeMacro"] = {
-
-	},
-	["HillHeight"] = {
-		["Cursed Academy"] = 2,
-		["Blue Planet"] = 2,
-		["Snowy Woods"] = 2,
-		["Underwater Temple"] = 2,
-		["Swordsman Dojo"] = 2,
-		["Mob City"] = 2,
-		["Windmill Village"] = 2
-	},
-	["HardMode"] = false,
-	["AutoUpgrade"] = true,
-	["PlaceGap"] = {
-		["Cursed Academy"] = 3.25,
-		["Blue Planet"] = 3.25,
-		["Snowy Woods"] = 3.25,
-		["Underwater Temple"] = 3.25,
-		["Swordsman Dojo"] = 3.25,
-		["Mob City"] = 3.25,
-		["Windmill Village"] = 3.25
-	},
-	["MiddlePos"] = {
-		["Windmill Village"] = "-1675.686767578125, 24.114013671875, -533.9232177734375"
-	},
-	["UpgradeAndPlace"] = true,
-	["AutoJoinChallenge"] = false,
-	["AutoPlay"] = true,
-	["AutoReplay"] = true,
-	["DeleteMap"] = false,
-	["JoinHighest"] = false,
-	["AutoJoinHoster"] = false,
-	["AutoRejoin"] = true,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
-	["AutoClaimQuest"] = true,
-	["AutoJoinWorld"] = true,
-	["WaitForJoiner"] = false,
-	["LeaveSellWave"] = 31,
-	["SelectReward"] = {
-		["Risky Dice"] = false,
-		["Trait Crystal"] = false,
-		["Gold"] = false,
-		["Star Rift "] = false,
-		["Star Rift (Rainbow)"] = false,
-		["Star Rift (Dark)"] = false,
-		["Gems"] = false
-	},
-	["SelectDifficulty"] = {
-		["All units lowered range"] = false,
-		["All enemies regen health"] = false,
-		["All units increased cost"] = false,
-		["All enemies +1 shield"] = false,
-		["All enemies 2x health"] = false,
-		["All enemies 2x speed"] = false
-	}
+    ["AutoSave"] = true,
+    ["AutoReplay"] = true,
+    ["AutoJoinWorld"] = true,
+    ["BoostFPS"] = true,
+    ["PlayMacro"] = true,
+    ["AutoLeave"] = true,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
 }
 
-_G.key = "e01924b0543bfa92ff5e6c51c223b5ad139ab623a16a3b574501f635898f9663"
+getgenv().Key = "k29557962ec037367941922a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
