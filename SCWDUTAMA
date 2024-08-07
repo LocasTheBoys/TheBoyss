@@ -1,0 +1,62 @@
+--SCWD UTAMA Penampung
+getgenv().Config = {
+	["AutoSave"] = false,
+    ["JoinUsername"] = "chatdestroy",
+    ["AutoClaimBattlePass"] = true,
+    ["AutoClaimQuest"] = true,
+	["AutoTransferGem"] = true,
+	["AutoTradeItem"] = true,
+	["RequiredGem"] = 3000, --minimum price gems di alt
+	["AutoBuyBooth"] = false, --sniper
+	["AutoJoinTradeHub"] = true, --Join ke trading hub
+    ["LimitedUnit"] = {
+        ["Electric Cyborg"] = true,
+        ["Magic Arrow"] = true,
+        ["Ocean Guardian"] = true,
+        ["The Rift Sorcerer"] = false,
+		["Blood Demon"] = false,
+		["Grand Jadefire Knight"] = false,
+		["Shadow Dragon (Unlocked)"] = false,
+		["Darkness King"] = false,
+		["Legion Veteran (Max)"] = false,
+		["Warrior Princess"] = false,
+		["Aether Knight"] = false,
+		["Legion Assassin Master"] = false,
+		["Muscular Sorcerer"] = false,
+		["Legion Veteran"] = false,
+		["Donut Warrior"] = false,
+		["Princess Swordmaster"] = false,
+		["Legion Captain"] = false,
+		["Beast Sorcerer"] = false,
+		["Donut Master"] = false,
+		["The Cursed Knight"] = false,
+		["Darkness Prince"] = false,
+		["Water Swordsmaster"] = false,
+		["Jadefire Knight"] = false,
+		["Monster Sorcerer"] = false,
+		["Queen Swordmaster"] = false,
+		["Warrior Queen"] = false,
+		["The Rift Sorcerer (Awakened)"] = false,
+		["The Cursed Knight (Unlocked)"] = false,
+		["Zen Swordsman"] = false,
+		["Legion Commander"] = false,
+		["Grand Aether Knight"] = false,
+		["Storm Slayer"] = false,
+		["Slime Spirit Queen"] = false,
+		["Slime Spirit"] = false,
+		["Shadow Dragon"] = false,
+		["Savage"] = false,
+		["Cursed Archer"] = false,
+		["Fire Swordsman"] = false,
+		["Legion Assassin"] = false,
+		["Muscular Sorcerer (Enhanced)"] = false,
+		["Water Grandmaster"] = false
+	},
+	["WH_BoothBought"] = false,
+	["WHGemItemGotAlt"] = false,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+}
+
+getgenv().Key = "k29557962ec037367941922a"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
