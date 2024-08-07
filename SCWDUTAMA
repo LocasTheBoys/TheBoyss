@@ -1,7 +1,6 @@
 --SCWD UTAMA Penampung
 getgenv().Config = {
 	["AutoSave"] = false,
-    ["JoinUsername"] = "chatdestroy",
     ["AutoClaimBattlePass"] = true,
     ["AutoClaimQuest"] = true,
 	["AutoTransferGem"] = true,
