@@ -2,23 +2,11 @@
 
 getgenv().Config = {
     ["AutoSave"] = false,
-	   ["AutoConvertTicket"] = false,
+	["AutoConvertTicket"] = false,
    	["AutoClaimQuest"] = true,
    	["AutoClaimBattlePass"] = true,
-   	["AutoSummonLimited"] = true,
-   	["LimitedSummonUnit"] = {
-  		["Spirit Mage"] = true,
-  		["Demon Knight"] = true,
-  		["Storm Swordsman"] = true,
-  		["Sky Swordsman"] = true
-   	},
-   	["DeleteRarity"] = {
-     		["Epic"] = false,
-     		["Legendary"] = false,
-     		["Rare"] = true
-   	},
       	["WH_BannerSummoned"] = true,
-       ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+       	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
     }
 
 getgenv().Key = "k29557962ec037367941922a"
