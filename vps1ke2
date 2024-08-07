@@ -1,39 +1,39 @@
 --print("VPS 1") --Anime Defender HuytuLavaWindInf
 getgenv().Config = {
-    ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = false, --untuk naikin level
-    ["SelectChapter"] = "Infinite",
-    ["SelectWorld"] = "Windmill Village",
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimBattlePass"] = true,
-    ["AutoSell"] = false,
-    ["BlackScreen"] = false,
-    ["AutoReturnLobby"] = true,
-    ["AutoSkip"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "korekpantad",
-    ["AutoJoinChallenge"] = false,
-    ["HardMode"] = false,
-    ["LeaveSellWave"] = 31,
-    ["AutoRejoin"] = true,
-    ["SelectReward"] = {
-        ["Trait Crystal"] = false,
-        ["Gold"] = false,
-        ["Star Rift (Rainbow)"] = false,
-        ["Gems"] = false,
-        ["Risky Dice"] = false,
-        ["Star Rift "] = false
-    },
     ["AutoSave"] = false,
-    ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = true,
-    ["BoostFPS"] = true,
-    ["PlayMacro"] = true,
-    ["AutoLeave"] = true,
-    ["WH_MatchComplete"] = true,
+    ["AutoSummonStandard"] = false,
+	["WH_BannerSummoned"] = false,
+	["AutoConvertTicket"] = false,
+	["AutoClaimBattlePass"] = true,
+	["AutoClaimQuest"] = true,
+	["WH_BoothBought"] = false,
+	["AutoDeleteUnit"] = true,
+	["UnselectIfSummoned"] = false,--ketika sudah tersummon berhenti
+	["AutoJoinPortal"] = false,
+	["AutoSummonLimited"] = true,
+    ["LimitedSummonUnit"] = {
+		["Storm Slayer"] = true,
+		["Jadefire Knight"] = true,
+		["Zen Swordsman"] = true,
+		["Aether Knight"] = true
+	},
+	["BuyUnit"] = false,
+	["SelectDeleteRarity"] = {
+		["Legendary"] = false,
+		["Shiny Epic"] = true,
+		["Epic"] = true, -- ingat bloom
+		["Mythic"] = false,
+		["Shiny Rare"] = true,
+		["Shiny Legendary"] = false,
+		["Rare"] = true
+	},--atas adalah delete unit yang di inventory
+	["DeleteRarity"] = {
+		["Epic"] = true,
+		["Legendary"] = false,
+		["Rare"] = true
+	},--atas adalah delete unit yang di summon
+    ["WH_BannerSummoned"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1222839644346126368/7z-p1kLtKUxf1THgK4adiNf8mZ3YxjXqZGsaWdY5Ij5cr078oz7hrzyoFO_NQBk0-1-4",
 }
-getgenv().Key = "kf697d5f6169d63fda564b94"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
