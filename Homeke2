@@ -1,17 +1,17 @@
---print("FREE NOUSIGI RUMAH")
+--print("kaki plus gacha ticket lims")
 
 getgenv().Config = {
-	["AutoSave"] = false,
+    ["AutoSave"] = false,
     ["JoinUsername"] = "chatdestroy",
     ["ReceiverAccount"] = "chatdestroy",
     ["ReceiverAccount2"] = "chatdestroy",
     ["AutoClaimBattlePass"] = true,
     ["AutoClaimQuest"] = true,
-	["AutoTransferGem"] = true,
+    ["AutoTransferGem"] = true, --tidak bisa aktif bareng dengan AutoTradeItem (sudah include rr, frost, risky)
 	["RequiredGem"] = 3000, --minimum price gems di alt
 	["AutoBuyBooth"] = false, --sniper
 	["AutoJoinTradeHub"] = false, --Join ke trading hub
-    ["AutoTradeItem"] = true,
+    ["AutoTradeItem"] = false, --tidak bisa aktif bareng dengan AutoTransferGem
     ["TradeItem"] = {
 		["Trait Crystal"] = true,
 		["Risky Dice"] = true,
@@ -28,9 +28,39 @@ getgenv().Config = {
 		["Divine Dragon Battlepass (Gift)"] = false,
 		["Skip 10 Levels (Battlepass)"] = false,
 	},
+    ["AutoSummonStandard"] = false,
+	["WH_BannerSummoned"] = false,
+	["AutoConvertTicket"] = false,
 	["WH_BoothBought"] = false,
+	["AutoDeleteUnit"] = true,
+	["UnselectIfSummoned"] = false,--ketika sudah tersummon berhenti
+	["AutoJoinPortal"] = false,
+	["AutoSummonLimited"] = true,
+    ["LimitedSummonUnit"] = {
+		["Storm Slayer"] = true,
+		["Jadefire Knight"] = true,
+		["Zen Swordsman"] = true,
+		["Aether Knight"] = true
+	},
+	["BuyUnit"] = false,
+	["SelectDeleteRarity"] = {
+		["Legendary"] = false,
+		["Shiny Epic"] = false,
+		["Epic"] = false, -- ingat bloom
+		["Mythic"] = false,
+		["Shiny Rare"] = true,
+		["Shiny Legendary"] = false,
+		["Rare"] = true
+	},--atas adalah delete unit yang di inventory
+	["DeleteRarity"] = {
+		["Epic"] = true,
+		["Legendary"] = false,
+		["Rare"] = true
+	},--atas adalah delete unit yang di summon
+    ["WH_BoothBought"] = false,
 	["WHGemItemGotAlt"] = false,
-	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+    ["WH_BannerSummoned"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
 }
 
 getgenv().Key = "k29557962ec037367941922a"
