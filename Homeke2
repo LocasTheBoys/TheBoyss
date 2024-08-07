@@ -1,13 +1,37 @@
 --print("FREE NOUSIGI RUMAH")
 
 getgenv().Config = {
-    ["AutoSave"] = false,
-	["AutoConvertTicket"] = false,
-   	["AutoClaimQuest"] = true,
-   	["AutoClaimBattlePass"] = true,
-      	["WH_BannerSummoned"] = true,
-       	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
-    }
+	["AutoSave"] = false,
+    ["JoinUsername"] = "chatdestroy",
+    ["ReceiverAccount"] = "chatdestroy",
+    ["ReceiverAccount2"] = "chatdestroy",
+    ["AutoClaimBattlePass"] = true,
+    ["AutoClaimQuest"] = true,
+	["AutoTransferGem"] = true,
+	["RequiredGem"] = 3000, --minimum price gems di alt
+	["AutoBuyBooth"] = false, --sniper
+	["AutoJoinTradeHub"] = false, --Join ke trading hub
+    ["AutoTradeItem"] = true,
+    ["TradeItem"] = {
+		["Trait Crystal"] = true,
+		["Risky Dice"] = true
+        ["Frost Bind"] = true,
+		["Star Rift (Purple)"] = false,
+		["Star Rift (Red)"] = false,
+		["Star Rift (Yellow)"] = false,
+		["Star Rift (Green)"] = false,
+		["VIP (Gift)"] = false,
+		["Star Rift (Blue)"] = false,
+		["Magic Mirror"] = false,
+		["Shiny Hunter (Gift)"] = false,
+		["Divine Wish"] = false,
+		["Divine Dragon Battlepass (Gift)"] = false,
+		["Skip 10 Levels (Battlepass)"] = false,
+	},
+	["WH_BoothBought"] = false,
+	["WHGemItemGotAlt"] = false,
+	["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+}
 
 getgenv().Key = "k29557962ec037367941922a"
 
