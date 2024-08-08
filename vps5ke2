@@ -1,4 +1,4 @@
---print("VPS 6") --anime korekpantad
+--print("VPS 5") --anime korekpantad
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
