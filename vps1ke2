@@ -1,4 +1,5 @@
 --print("VPS 1") --Anime Defender HuytuLavaWindInf
+getgenv().DisableClientCheckBypass = true
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
