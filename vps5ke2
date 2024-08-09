@@ -1,5 +1,4 @@
 --print("VPS 5") --anime korekpantad
-getgenv().DisableClientCheckBypass = true
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
     ["JoinHighest"] = false, --untuk naikin level
