@@ -1,4 +1,4 @@
-task.wait(6)
+wait(5)
 getgenv().RngEvent = {
     Selected_RngEgg = "First",
     Rolling_Enabled = true,
