@@ -10,8 +10,7 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/ps99ke1",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/ps99ke2"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/ps99ke1"
 }
 
 executeScripts(scripts)
