@@ -11,7 +11,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/TestScript2",
-    "https://github.com/LocasTheBoys/TheBoyss/blob/main/ps99ke2"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/ps99ke2"
 }
 
 executeScripts(scripts)
