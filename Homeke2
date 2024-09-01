@@ -23,6 +23,7 @@ getgenv().Config = {
 		["Mythic"] = true,
 		["Secret"] = true
 	},
+    ["AutoUseAbility"] = true,
     ["AutoClaimQuest"] = true,
     ["AutoClaimBattlePass"] = true,
     ["AutoSell"] = false,
