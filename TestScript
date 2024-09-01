@@ -24,7 +24,7 @@ getgenv().Config = {
 	},--atas adalah delete unit yang di inventory
 	["DeleteRarity"] = {
 		["Epic"] = true,
-		["Legendary"] = true,
+		["Legendary"] = false,
 		["Rare"] = true
 	},--atas adalah delete unit yang di summon
     ["StandardSummonUnit"] = {
