@@ -12,6 +12,7 @@ getgenv().Config = {
 	["UnselectIfSummoned"] = false,--ketika sudah tersummon berhenti
 	["AutoJoinPortal"] = false,
 	["AutoSummonLimited"] = false,
+        ["AutoSave"] = false,
 	["BuyUnit"] = false,
 	["SelectDeleteRarity"] = {
 		["Legendary"] = false,
