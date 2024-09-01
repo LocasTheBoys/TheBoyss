@@ -1,33 +1,69 @@
-getgenv().RngEvent = {
-    Selected_RngEgg = "First",
-    Rolling_Enabled = true,
-    Rolling_Delay = 0.4,
-    Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
+--print("FREE NOUSIGI RUMAH")
 
-    Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
-    AutoUpgrades_Enabled = true,
-    AutoMerchant_Enabled = true,
-    AutoSellPets_Enabled = true,
-    AutoSell_OnlyEventPets = true, -- if false, will sell any pet not only pets gained from event
-    AutoBreakChests_Enabled = true, -- semi blatant teleporting
-    Lucky_Dice_Enabled = true,
-    Lucky_Dice_Config = {
-        ["Fire Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice II"] = {Craft = true, Use = true, Only_Use_If_Not_Active = true, Only_Use_If_Rolls_Ends_In = nil},
-        ["Lucky Dice III"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = nil},
-        ["Mega Lucky Dice II"] = {Craft = true, Use = false, Only_Use_If_Not_Active = false, Only_Use_If_Rolls_Ends_In = 9},
+getgenv().Config = {
+    ["AutoSave"] = false,
+    ["UnselectIfSummoned"] = true, --jika hero sudah dapat dia gk summon terus
+    ["AutoSummonStandard"] = true,
+	["WH_BannerSummoned"] = false,
+	["AutoConvertTicket"] = false,
+	["AutoClaimBattlePass"] = true,
+	["AutoClaimQuest"] = true,
+	["WH_BoothBought"] = false,
+	["AutoDeleteUnit"] = true,
+	["UnselectIfSummoned"] = false,--ketika sudah tersummon berhenti
+	["AutoJoinPortal"] = false,
+	["AutoSummonLimited"] = false,
+	["BuyUnit"] = false,
+	["SelectDeleteRarity"] = {
+		["Legendary"] = false,
+		["Shiny Epic"] = true,
+		["Epic"] = true, -- ingat bloom
+		["Mythic"] = false,
+		["Shiny Rare"] = true,
+		["Shiny Legendary"] = false,
+		["Rare"] = true
+	},--atas adalah delete unit yang di inventory
+	["DeleteRarity"] = {
+		["Epic"] = true,
+		["Legendary"] = true,
+		["Rare"] = true
+	},--atas adalah delete unit yang di summon
+    ["StandardSummonUnit"] = {
+        ["Maxed Qi Master"] = false,
+        ["Shinobi Form 3"] = false,
+        ["The Gamer"] = false,
+        ["Carp"] = false,
+        ["Admiral Of Light"] = false,
+        ["Admiral Of Lava"] = false,
+        ["Strongest Swordsman"] = false,
+        ["Vengeful Shinobi"] = false,
+        ["Elf Wizardess"] = false,
+        ["Skull Warrior"] = false,
+        ["Cursed Fighter"] = false,
+        ["Curse Prince"] = false,
+        ["Ant King"] = false,
+        ["Esper"] = false,
+        ["The Beast"] = false,
+        ["Ascended Qi Master"] = false,
+        ["Flame Dragon King"] = false,
+        ["Thunder Shinobi"] = false,
+        ["Spirit Hybrid"] = false,
+        ["Soulforce Reaper"] = false,
+        ["Admiral Of Ice"] = false,
+        ["Inferno Commander"] = false,
+        ["Bloomer"] = false,
+        ["Fire Leg Master"] = false,
+        ["Sharpshooter"] = false,
+        ["Clay"] = false,
+        ["Chance Taker"] = false,
+        ["Pink Rockstar"] = true,
+        ["Dragon Slayer"] = false,
+        ["Master Swordsman"] = false
     },
-
-    Webhook_Url = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
-    Discord_UserID = "346131680756498433",
-    Huge_Mail_User = "chatdestroy",
-    Huge_Mail_Enabled = false, -- Warning: Using auto has a 1% Chance of donating to KiTTYWARE Devs
-
-    fps_boost = false, -- makes game shtuff invisible
-    fps_boost2 = false, -- disables game scripts so will break some in-game functionality like inventory Gui etc
-    gui_stats_enabled = false,
-    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs)
+    ["WH_BannerSummoned"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
+
+getgenv().Key = "kafef7341c38517d64860f29"
+
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
