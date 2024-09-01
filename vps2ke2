@@ -26,6 +26,7 @@ getgenv().Config = {
         ["Star Rift "] = false
     },
     ["AutoSave"] = true,
+    ["Setx2GameSpeed"] = true,
     ["AutoReplay"] = true,
     ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
