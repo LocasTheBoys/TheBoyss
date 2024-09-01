@@ -4,9 +4,25 @@
 --print("VPS 5") --anime test2
 getgenv().Config = {
     ["JoinerCooldown"] = 3,
-    ["JoinHighest"] = false, --untuk naikin level
-    ["SelectChapter"] = "Infinite",
-    ["SelectWorld"] = "Windmill Village",
+	["AutoJoinPortal"] = true,
+    ["SelectMacro"] = "portal5", --Makro Yang Dirubah
+	["SelectPortalMacro"] = {
+		["Demon Portal"] = "portal5"
+	},
+	["SelectPortal"] = {
+		["Lunar Portal"] = true,
+		["Solar Portal"] = true,
+		["Ancient Dragon Portal"] = true,
+		["Cursed Kingdom Portal"] = true,
+		["Demon Portal"] = true
+	},
+	["PortalRarity"] = {
+		["Legendary"] = true,
+		["Epic"] = true,
+		["Rare"] = true,
+		["Mythic"] = true,
+		["Secret"] = true
+	},
     ["AutoClaimQuest"] = true,
     ["AutoClaimBattlePass"] = true,
     ["AutoSell"] = false,
@@ -15,26 +31,13 @@ getgenv().Config = {
     ["AutoSkip"] = true,
     ["TPLobbyIfPlayer"] = true,
     ["IgnoreMacroTiming"] = true,
-    ["SelectMacro"] = "test5",
-    ["AutoJoinChallenge"] = false,
     ["HardMode"] = false,
-    ["LeaveSellWave"] = 46,
     ["AutoRejoin"] = true,
-    ["SelectReward"] = {
-        ["Trait Crystal"] = false,
-        ["Gold"] = false,
-        ["Star Rift (Rainbow)"] = false,
-        ["Gems"] = false,
-        ["Risky Dice"] = false,
-        ["Star Rift "] = false
-    },
     ["AutoSave"] = false,
     ["Setx2GameSpeed"] = true,
     ["AutoReplay"] = true,
-    ["AutoJoinWorld"] = true,
     ["BoostFPS"] = true,
     ["PlayMacro"] = true,
-    ["AutoLeave"] = true,
     ["WH_MatchComplete"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
 }
