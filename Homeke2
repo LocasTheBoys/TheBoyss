@@ -21,6 +21,8 @@ getgenv().Config = {
     ["JoinerCooldown"] = 0,
     ["AutoSkip"] = true,
     ["Setx2GameSpeed"] = true,
+    ["WH_MatchComplete"] = true,
+    ["BoostFPS"] = true,
 }
 _G.key = "df21ebb0de3011f87d69b19114b786abfb7b56cf1696912fc1b3005a63075b3f"
 
