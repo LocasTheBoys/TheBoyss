@@ -2,7 +2,37 @@
 --print("FREE NOUSIGI RUMAH")
 
 --print("VPS 5") --anime test2
-
+getgenv().Config = {
+    ["ItemPrice"] = 1,
+    ["JoinerList"] = {
+        [1] = "No joiner in the list"
+    },
+    ["AutoPlayNext"] = true,
+    ["LSImplosion"] = 100000,
+    ["AutoJoinTower"] = true,
+    ["FeedLevel"] = 79,
+    ["LeaveSellWave"] = 1,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
+    ["LSBomb"] = 1,
+    ["RequiredGem"] = 3000,
+    ["UnitPrice"] = 1,
+    ["SelectTowerMacro"] = {
+        ["1"] = "tower1",
+        ["3"] = "tower1",
+        ["2"] = "tower1",
+        ["5"] = "tower1",
+        ["4"] = "tower1"
+    },
+    ["IgnoreMacroTiming"] = true,
+    ["SelectMacro"] = "tower1",
+    ["PlayMacro"] = true,
+    ["ABBHopDelay"] = 0,
+    ["JoinerCooldown"] = 0,
+    ["LSLoop"] = 2,
+    ["AutoSkip"] = true,
+    ["Setx2GameSpeed"] = true,
+    ["LSDelay"] = 0.4
+}
 _G.key = "df21ebb0de3011f87d69b19114b786abfb7b56cf1696912fc1b3005a63075b3f"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
