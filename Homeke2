@@ -2,45 +2,7 @@
 --print("FREE NOUSIGI RUMAH")
 
 --print("VPS 5") --anime test2
-getgenv().Config = {
-    ["JoinerCooldown"] = 3,
-	["AutoJoinPortal"] = true,
-    ["SelectMacro"] = "portal5", --Makro Yang Dirubah
-	["SelectPortalMacro"] = {
-		["Demon Portal"] = "portal5"
-	},
-	["SelectPortal"] = {
-		["Lunar Portal"] = true,
-		["Solar Portal"] = true,
-		["Ancient Dragon Portal"] = true,
-		["Cursed Kingdom Portal"] = true,
-		["Demon Portal"] = true
-	},
-	["PortalRarity"] = {
-		["Legendary"] = true,
-		["Epic"] = true,
-		["Rare"] = true,
-		["Mythic"] = true,
-		["Secret"] = true
-	},
-    ["AutoUseAbility"] = true,
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimBattlePass"] = true,
-    ["AutoSell"] = false,
-    ["BlackScreen"] = false,
-    ["AutoReturnLobby"] = true,
-    ["AutoSkip"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["HardMode"] = false,
-    ["AutoRejoin"] = true,
-    ["AutoSave"] = false,
-    ["Setx2GameSpeed"] = true,
-    ["AutoReplay"] = true,
-    ["BoostFPS"] = true,
-    ["PlayMacro"] = true,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
-}
+
+_G.key = "df21ebb0de3011f87d69b19114b786abfb7b56cf1696912fc1b3005a63075b3f"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
