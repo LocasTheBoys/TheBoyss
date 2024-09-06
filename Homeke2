@@ -9,11 +9,11 @@ getgenv().Config = {
     ["AutoJoinTower"] = true,
     ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
     ["SelectTowerMacro"] = {
-        ["1"] = "tower1",
-        ["3"] = "tower1",
-        ["2"] = "tower1",
-        ["5"] = "tower1",
-        ["4"] = "tower1"
+        ["1"] = "ID1ke1",
+        ["3"] = "ID3ke1",
+        ["2"] = "ID2ke1",
+        ["5"] = "ID5ke1",
+        ["4"] = "ID4ke1"
     },
     ["AutoUseAbility"] = true,
     ["AutoClaimQuest"] = true,
