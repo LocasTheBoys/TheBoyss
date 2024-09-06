@@ -11,7 +11,7 @@ getgenv().Config = {
     ["SelectTowerMacro"] = {
         ["1"] = "ID1ke2",
         ["3"] = "ID3ke1",
-        ["2"] = "ID2ke1",
+        ["2"] = "ID2ke2",
         ["5"] = "ID5ke2",
         ["4"] = "ID4ke1"
     },
