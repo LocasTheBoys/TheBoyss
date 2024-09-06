@@ -12,7 +12,7 @@ getgenv().Config = {
         ["1"] = "ID1ke1",
         ["3"] = "ID3ke1",
         ["2"] = "ID2ke1",
-        ["5"] = "ID5ke1",
+        ["5"] = "ID5ke2",
         ["4"] = "ID4ke1"
     },
     ["AutoUseAbility"] = true,
