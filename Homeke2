@@ -15,6 +15,9 @@ getgenv().Config = {
         ["5"] = "tower1",
         ["4"] = "tower1"
     },
+    ["AutoUseAbility"] = true,
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimBattlePass"] = true,
     ["IgnoreMacroTiming"] = true,
     ["SelectMacro"] = "tower1",
     ["PlayMacro"] = true,
