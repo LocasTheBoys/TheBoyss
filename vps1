@@ -11,6 +11,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/SCWD",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
 executeScripts(scripts)
