@@ -10,9 +10,7 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke3",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/AutoKick",
+    "loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/FULLSC"))()",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
