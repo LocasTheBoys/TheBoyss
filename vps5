@@ -10,7 +10,7 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/FULLSC"))()",
+    "https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/FULLSC",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
