@@ -24,8 +24,8 @@ getgenv().Config = {
         ["Rare"] = true
     },--atas adalah delete unit yang di inventory (Unit Di LOCK aman ndak kedelete)
     ["DeleteRarity"] = {
-        ["Epic"] = false,
-        ["Legendary"] = false,
+        ["Epic"] = true,
+        ["Legendary"] = true,
         ["Rare"] = true
     },--atas adalah delete unit yang di summon
 ["StandardSummonUnit"] = {
