@@ -16,15 +16,15 @@ getgenv().Config = {
     ["BuyUnit"] = false,
     ["SelectDeleteRarity"] = {
         ["Legendary"] = false,
-        ["Shiny Epic"] = true,
-        ["Epic"] = true, -- ingat bloom
+        ["Shiny Epic"] = false,
+        ["Epic"] = false, -- ingat bloom
         ["Mythic"] = false,
         ["Shiny Rare"] = true,
         ["Shiny Legendary"] = false,
         ["Rare"] = true
     },--atas adalah delete unit yang di inventory (Unit Di LOCK aman ndak kedelete)
     ["DeleteRarity"] = {
-        ["Epic"] = true,
+        ["Epic"] = false,
         ["Legendary"] = false,
         ["Rare"] = true
     },--atas adalah delete unit yang di summon
