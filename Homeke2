@@ -1,6 +1,7 @@
 --print("FREE NOUSIGI RUMAH")
 
 getgenv().Config = {
+    ["AutoSave"] = false,
     ["Failsafe"] = {
         ["Auto Rejoin"] = true,
         ["Teleport Lobby if Player"] = true
@@ -33,7 +34,6 @@ getgenv().Config = {
     ["Match Finished"] = {
         ["Auto Replay"] = true
     },
-    ["AutoSave"] = false
     ["Claimer"] = {
         ["Auto Claim Battle Pass"] = false,
         ["Auto Claim Quest"] = false
