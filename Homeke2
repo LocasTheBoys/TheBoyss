@@ -20,7 +20,7 @@ getgenv().Config = {
         ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "namak4",
+        ["Macro"] = "Stage1Act1_Roku",
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
