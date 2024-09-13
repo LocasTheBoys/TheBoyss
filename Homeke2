@@ -1,5 +1,44 @@
 --print("FREE NOUSIGI RUMAH")
 
+getgenv().Config = {
+    ["Failsafe"] = {
+        ["Auto Rejoin"] = true,
+        ["Teleport Lobby if Player"] = true
+    },
+    ["Webhook"] = {
+        ["Stage Finished"] = true,
+        ["URL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z"
+    },
+    ["Performance"] = {
+        ["Boost FPS"] = true
+        ["Delete Map"] = true,
+    },
+    ["Stage Joiner"] = {
+        ["Auto Join"] = true,
+        ["Act"] = "Act1",
+        ["Stage"] = "Planet Namak"
+    },
+    ["Macros"] = {
+        ["Macro"] = "namak4",
+        ["Ignore Macro Timing"] = true,
+        ["Play"] = true
+    },
+    ["Gameplay"] = {
+        ["Auto Sell"] = {
+            ["Enable"] = false,
+            ["Wave"] = 1
+        },
+        ["Auto Skip Wave"] = true
+    },
+    ["Match Finished"] = {
+        ["Auto Replay"] = true
+    },
+    ["AutoSave"] = false
+    ["Claimer"] = {
+        ["Auto Claim Battle Pass"] = true,
+        ["Auto Claim Quest"] = true
+}
+
 getgenv().Key = "k876dc4ddff1e681aaca8d9a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
