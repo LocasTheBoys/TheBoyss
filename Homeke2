@@ -10,8 +10,8 @@ getgenv().Config = {
         ["URL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z"
     },
     ["Performance"] = {
-        ["Boost FPS"] = true,
-        ["Delete Map"] = true
+        ["Delete Map"] = true,
+        ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
