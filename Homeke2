@@ -1,3 +1,59 @@
+--print("FREE NOUSIGI RUMAH")
+
+getgenv().Config = {
+	["AutoSave"] = false,
+	["Webhook"] = {
+		["Stage Finished"] = false,
+		["Unit Summoned"] = true,
+    ["URL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU"
+	},
+	["Performance"] = {
+		["Delete Map"] = false,
+		["Boost FPS"] = false
+	},
+	["Claimer"] = {
+		["Auto Claim Battle Pass"] = true,
+		["Auto Claim Quest"] = true,
+		["Auto Claim Daily Reward"] = true,
+		["Auto Claim Collection"] = true,
+		["Auto Claim Achievement"] = true
+	},
+	["Summoner"] = {
+		["Teleport Lobby new Banner"] = false,
+		["Unselect if Summoned"] = true,
+		["Standard Unit"] = {
+			["Genitsu"] = false,
+			["Cha-In"] = false,
+			["Alocard"] = true,-------Ini
+			["Genas"] = false,
+			["Itochi"] = false,
+			["Agony"] = false,
+			["Gaari"] = false,
+			["Pickleo"] = false,
+			["Shinzi"] = false,
+			["Roku (Dark)"] = true,-------Ini
+			["Kinnua"] = true,-------Ini
+			["Inosake"] = false,
+			["Sprintwagon"] = true,-------Ini
+			["Song Jinwu"] = true,-------Ini
+			["Kinaru"] = true,-------Ini
+			["Grim Wow"] = false,
+			["Kokashi"] = false,
+			["Goi"] = true,-------Ini
+			["Vogita Super"] = false,
+			["Noruto (Sage)"] = false,
+			["Sosuke (Hebi)"] = false,
+			["Obita"] = false,
+			["Alligator"] = false
+		},
+		["Auto Summon Standard"] = true,
+		["Delete Rarity"] = {
+			["Epic"] = false,
+			["Legendary"] = false,
+			["Rare"] = true
+		} -- atas ini adalah delete rarity dari summon
+    }
+}
 
 getgenv().Key = "k876dc4ddff1e681aaca8d9a"
 
