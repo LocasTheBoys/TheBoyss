@@ -1,4 +1,4 @@
---print("FREE NOUSIGI RUMAH")
+--print("Unlock Map Sampai Ke act 5 DD")
 
 getgenv().Config = {
     ["AutoSave"] = false,
@@ -15,10 +15,10 @@ getgenv().Config = {
         ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
-        ["Auto Join"] = true,
-	["Join Highest"] = true,
-        ["Act"] = "Act1",
-        ["Stage"] = "Planet Namak"
+        ["Auto Join"] = false,
+        ["Join Highest"] = false,
+        ["Act"] = "Act5",
+        ["Stage"] = "Double Dungeon"--"Planet Namak","Sand Village","Double Dungeon"
     },
     ["Macros"] = {
         ["Macro"] = "Stage3Act5_Kinaru",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
@@ -33,13 +33,16 @@ getgenv().Config = {
         ["Auto Skip Wave"] = true
     },
     ["Match Finished"] = {
-	["Auto Return Lobby"] = false,
-	["Auto Replay"] = true,
-	["Auto Next"] = true
+    ["Auto Return Lobby"] = false,
+    ["Auto Replay"] = true,
+    ["Auto Next"] = true
     },
     ["Claimer"] = {
-        ["Auto Claim Battle Pass"] = false,
-        ["Auto Claim Quest"] = false
+    ["Auto Claim Battle Pass"] = true,
+    ["Auto Claim Quest"] = true,
+    ["Auto Claim Daily Reward"] = true,
+    ["Auto Claim Collection"] = true,
+    ["Auto Claim Achievement"] = true
     },
 }
 
