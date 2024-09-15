@@ -21,7 +21,7 @@ getgenv().Config = {
         ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "SandAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","LegendStageAct123_Legendaries"
+        ["Macro"] = "LegendStageAct123_Legendaries",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","LegendStageAct123_Legendaries"
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
