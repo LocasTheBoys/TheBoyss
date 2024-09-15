@@ -1,57 +1,54 @@
 --print("FREE NOUSIGI RUMAH")
+--print("Unlock all planet namak")
 
 getgenv().Config = {
     ["AutoSave"] = false,
+    ["Failsafe"] = {
+        ["Auto Rejoin"] = true,
+        ["Teleport Lobby if Player"] = true
+    },
     ["Webhook"] = {
-        ["Unit Summonedd"] = true,
-        ["URL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU"
+        ["Stage Finished"] = true,
+        ["URL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z"
     },
     ["Performance"] = {
-        ["Delete Map"] = false,
-        ["Boost FPS"] = false
+        ["Delete Map"] = true,
+        ["Boost FPS"] = true
     },
-    ["Claimer"] = {
-        ["Auto Claim Battle Pass"] = true,
-        ["Auto Claim Quest"] = true,
-        ["Auto Claim Daily Reward"] = true,
-        ["Auto Claim Collection"] = true,
-        ["Auto Claim Achievement"] = true
+    ["Stage Joiner"] = {
+        ["Auto Join"] = true,
+        ["Act"] = "Act1",
+        ["Stage"] = "Planet Namak"  --"Planet Namak","Sand Village","Double Dungeon"
     },
-    ["Summoner"] = {
-        ["Teleport Lobby new Banner"] = false,
-        ["Unselect if Summoned"] = true,
-        ["Standard Unit"] = {
-            ["Genitsu"] = false,
-            ["Cha-In"] = false,
-            ["Alocard"] = true,-------Ini
-            ["Genas"] = false,
-            ["Itochi"] = false,
-            ["Agony"] = false,
-            ["Gaari"] = false,
-            ["Pickleo"] = false,
-            ["Shinzi"] = false,
-            ["Roku (Dark)"] = true,-------Ini
-            ["Kinnua"] = true,-------Ini
-            ["Inosake"] = false,
-            ["Sprintwagon"] = true,-------Ini
-            ["Song Jinwu"] = true,-------Ini
-            ["Kinaru"] = true,-------Ini
-            ["Grim Wow"] = false,
-            ["Kokashi"] = false,
-            ["Goi"] = true,-------Ini
-            ["Vogita Super"] = false,
-            ["Noruto (Sage)"] = false,
-            ["Sosuke (Hebi)"] = false,
-            ["Obita"] = false,
-            ["Alligator"] = false
+	["Legend Stage Joiner"] = {
+        ["Auto Join"] = false,
+        ["Stage"] = "Double Dungeon",
+        ["Act"] = "Act3"
+	},
+    ["Macros"] = {
+        ["Macro"] = "NamakAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","LegendStageAct123_Legendaries"
+        ["Ignore Macro Timing"] = true,
+        ["Play"] = true
+    },
+    ["Gameplay"] = {
+        ["Auto Sell"] = {
+            ["Enable"] = false,
+            ["Wave"] = 1
         },
-        ["Auto Summon Standard"] = true,
-        ["Delete Rarity"] = {
-            ["Epic"] = false,
-            ["Legendary"] = false,
-            ["Rare"] = true
-        } -- atas ini adalah delete rarity dari summon
-    }
+        ["Auto Skip Wave"] = true
+    },
+	["Match Finished"] = {
+		["Auto Return Lobby"] = false,
+		["Auto Replay"] = true,
+		["Auto Next"] = true
+	},
+    ["Claimer"] = {
+		["Auto Claim Battle Pass"] = true,
+		["Auto Claim Quest"] = true,
+		["Auto Claim Daily Reward"] = true,
+		["Auto Claim Collection"] = true,
+		["Auto Claim Achievement"] = true
+    },
 }
 
 getgenv().Key = "k876dc4ddff1e681aaca8d9a"
