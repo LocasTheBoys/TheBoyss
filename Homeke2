@@ -16,7 +16,7 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
-	    ["Join Highest"] = true,
+	["Join Highest"] = true,
         ["Act"] = "Act1",
         ["Stage"] = "Planet Namak"
     },
@@ -33,7 +33,9 @@ getgenv().Config = {
         ["Auto Skip Wave"] = true
     },
     ["Match Finished"] = {
-        ["Auto Replay"] = true
+	["Auto Return Lobby"] = false,
+	["Auto Replay"] = true,
+	["Auto Next"] = true
     },
     ["Claimer"] = {
         ["Auto Claim Battle Pass"] = false,
