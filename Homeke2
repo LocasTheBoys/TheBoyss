@@ -15,7 +15,7 @@ getgenv().Config = {
         ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
-        ["Auto Join"] = false,
+        ["Auto Join"] = true,
         ["Join Highest"] = false,
         ["Act"] = "Act5",
         ["Stage"] = "Double Dungeon"--"Planet Namak","Sand Village","Double Dungeon"
