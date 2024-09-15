@@ -16,6 +16,7 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
+	    ["Join Highest"] = true,
         ["Act"] = "Act1",
         ["Stage"] = "Planet Namak"
     },
