@@ -17,15 +17,8 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
-	["Join Highest"] = false,
-        ["Act"] = "Act1",
-        ["Stage"] = "Planet Namak",  --"Planet Namak","Sand Village","Double Dungeon"
+	["Join Highest"] = true,
 	["Nightmare Mode"] = false
-    },
-    ["Legend Stage Joiner"] = {
-        ["Auto Join"] = false,
-        ["Stage"] = "Double Dungeon",
-        ["Act"] = "Act3"
     },
     ["Macros"] = {
         ["Macro"] = "NamakAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","LegendStageAct123_Legendaries"
