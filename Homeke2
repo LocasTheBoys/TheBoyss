@@ -1,5 +1,4 @@
 --print("FREE NOUSIGI RUMAH")
---print("Unlock all planet namak")
 
 getgenv().Config = {
     ["AutoSave"] = false,
@@ -17,11 +16,11 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
-	["Join Highest"] = true,
-	["Nightmare Mode"] = false
+        ["Act"] = "Act1",
+        ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "NamakAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","LegendStageAct123_Legendaries"
+        ["Macro"] = "Stage1Act1_Roku",
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
@@ -32,17 +31,12 @@ getgenv().Config = {
         },
         ["Auto Skip Wave"] = true
     },
-	["Match Finished"] = {
-		["Auto Return Lobby"] = false,
-		["Auto Replay"] = true,
-		["Auto Next"] = true
-	},
+    ["Match Finished"] = {
+        ["Auto Replay"] = true
+    },
     ["Claimer"] = {
-		["Auto Claim Battle Pass"] = true,
-		["Auto Claim Quest"] = true,
-		["Auto Claim Daily Reward"] = true,
-		["Auto Claim Collection"] = true,
-		["Auto Claim Achievement"] = true
+        ["Auto Claim Battle Pass"] = false,
+        ["Auto Claim Quest"] = false
     },
 }
 
