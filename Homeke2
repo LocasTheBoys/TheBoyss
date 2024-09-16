@@ -5,7 +5,7 @@ getgenv().Config = {
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
         ["Stage"] = "Sand Village",
-        ["Act"] = "Act1"
+        ["Act"] = "Act3"
     },
     ["Failsafe"] = {
         ["Auto Rejoin"] = true,
@@ -39,7 +39,7 @@ getgenv().Config = {
     ["Match Finished"] = {
     ["Auto Return Lobby"] = false,
     ["Auto Replay"] = false,
-    ["Auto Next"] = true
+    ["Auto Next"] = false
     },
     ["Claimer"] = {
         ["Auto Claim Battle Pass"] = false,
