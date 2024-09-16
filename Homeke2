@@ -1,7 +1,12 @@
---print("Unlock Map Sampai Ke act 5 DD")
+--print("Unlock Map legend act 1 DD ke 3 DD")
 
 getgenv().Config = {
     ["AutoSave"] = false,
+    ["Legend Stage Joiner"] = {
+        ["Auto Join"] = true,
+        ["Stage"] = "Double Dungeon",
+        ["Act"] = "Act1"
+    },
     ["Failsafe"] = {
         ["Auto Rejoin"] = true,
         ["Teleport Lobby if Player"] = true
@@ -15,8 +20,7 @@ getgenv().Config = {
         ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
-        ["Auto Join"] = true,
-    ["Join Highest"] = true,
+        ["Auto Join"] = false,
         ["Act"] = "Act1",
         ["Stage"] = "Planet Namak"
     },
@@ -34,7 +38,7 @@ getgenv().Config = {
     },
     ["Match Finished"] = {
     ["Auto Return Lobby"] = false,
-    ["Auto Replay"] = true,
+    ["Auto Replay"] = false,
     ["Auto Next"] = true
     },
     ["Claimer"] = {
