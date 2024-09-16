@@ -4,7 +4,7 @@ getgenv().Config = {
     ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
-        ["Stage"] = "Double Dungeon",
+        ["Stage"] = "Sand Village",
         ["Act"] = "Act1"
     },
     ["Failsafe"] = {
@@ -25,7 +25,7 @@ getgenv().Config = {
         ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "LegendStageAct123_Legendaries",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
+        ["Macro"] = "SandAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
