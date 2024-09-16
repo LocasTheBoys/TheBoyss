@@ -2,6 +2,11 @@
 
 getgenv().Config = {
     ["AutoSave"] = false,
+    ["Legend Stage Joiner"] = {
+        ["Auto Join"] = true,
+        ["Stage"] = "Double Dungeon",
+        ["Act"] = "Act1"
+    },
     ["Failsafe"] = {
         ["Auto Rejoin"] = true,
         ["Teleport Lobby if Player"] = true
@@ -15,7 +20,7 @@ getgenv().Config = {
         ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
-        ["Auto Join"] = true,
+        ["Auto Join"] = false,
     ["Join Highest"] = true,
         ["Act"] = "Act1",
         ["Stage"] = "Planet Namak"
