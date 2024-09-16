@@ -16,12 +16,12 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = true,
-        ["Join Highest"] = false,
-        ["Act"] = "Act5",
-        ["Stage"] = "Double Dungeon"--"Planet Namak","Sand Village","Double Dungeon"
+    ["Join Highest"] = true,
+        ["Act"] = "Act1",
+        ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "Stage3Act5_Kinaru",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
+        ["Macro"] = "LegendStageAct123_Legendaries",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
@@ -35,14 +35,11 @@ getgenv().Config = {
     ["Match Finished"] = {
     ["Auto Return Lobby"] = false,
     ["Auto Replay"] = true,
-    ["Auto Next"] = false
+    ["Auto Next"] = true
     },
     ["Claimer"] = {
-    ["Auto Claim Battle Pass"] = true,
-    ["Auto Claim Quest"] = true,
-    ["Auto Claim Daily Reward"] = true,
-    ["Auto Claim Collection"] = true,
-    ["Auto Claim Achievement"] = true
+        ["Auto Claim Battle Pass"] = false,
+        ["Auto Claim Quest"] = false
     },
 }
 
