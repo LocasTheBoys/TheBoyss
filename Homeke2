@@ -5,7 +5,7 @@ getgenv().Config = {
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
         ["Stage"] = "Sand Village",
-        ["Act"] = "Act3"
+        ["Act"] = "Act2"
     },
     ["Failsafe"] = {
         ["Auto Rejoin"] = true,
