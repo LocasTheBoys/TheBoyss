@@ -21,7 +21,6 @@ getgenv().Config = {
     },
     ["Stage Joiner"] = {
         ["Auto Join"] = false,
-    ["Join Highest"] = true,
         ["Act"] = "Act1",
         ["Stage"] = "Planet Namak"
     },
@@ -39,7 +38,7 @@ getgenv().Config = {
     },
     ["Match Finished"] = {
     ["Auto Return Lobby"] = false,
-    ["Auto Replay"] = true,
+    ["Auto Replay"] = false,
     ["Auto Next"] = true
     },
     ["Claimer"] = {
