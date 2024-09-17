@@ -1,14 +1,14 @@
---print("Unlock Map legend act 1 DD ke 3 DD")
-.
+--print("AFK LEGEND SAND VILLAGE ACT 2")
+
 getgenv().Config = {
-    ["AutoSave"] = false,,
+    ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
-        ["Stage"] = "Double Dungeon"
+        ["Stage"] = "Double Dungeon",
         ["Act"] = "Act1"
     },
     ["Failsafe"] = {
-        ["Auto Rejoin"] = true
+        ["Auto Rejoin"] = true,
         ["Teleport Lobby if Player"] = true
     },
     ["Webhook"] = {
@@ -16,7 +16,7 @@ getgenv().Config = {
         ["URL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z"
     },
     ["Performance"] = {
-        ["Delete Map"] = true
+        ["Delete Map"] = true,
         ["Boost FPS"] = true
     },
     ["Stage Joiner"] = {
