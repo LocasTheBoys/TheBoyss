@@ -1,7 +1,7 @@
 --print("Unlock Map legend act 1 DD ke 3 DD")
 
 getgenv().Config = {
-    ["AutoSave"] = false,
+    ["AutoSave"] = false,,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
         ["Stage"] = "Sand Village",
