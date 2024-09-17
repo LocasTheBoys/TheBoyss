@@ -4,8 +4,8 @@ getgenv().Config = {
     ["AutoSave"] = false,,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
-        ["Stage"] = "Sand Village"
-        ["Act"] = "Act2"
+        ["Stage"] = "Double Dungeon"
+        ["Act"] = "Act1"
     },
     ["Failsafe"] = {
         ["Auto Rejoin"] = true
@@ -25,7 +25,7 @@ getgenv().Config = {
         ["Stage"] = "Planet Namak"
     },
     ["Macros"] = {
-        ["Macro"] = "SandAct123456_2LegSpr",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
+        ["Macro"] = "LegDDAct12",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries"
         ["Ignore Macro Timing"] = true,
         ["Play"] = true
     },
@@ -37,13 +37,16 @@ getgenv().Config = {
         ["Auto Skip Wave"] = true
     },
     ["Match Finished"] = {
-    ["Auto Return Lobby"] = false,
-    ["Auto Replay"] = true,
-    ["Auto Next"] = false
+        ["Auto Return Lobby"] = false,
+        ["Auto Replay"] = true,
+        ["Auto Next"] = true
     },
     ["Claimer"] = {
-        ["Auto Claim Battle Pass"] = false,
-        ["Auto Claim Quest"] = false
+        ["Auto Claim Battle Pass"] = true,
+        ["Auto Claim Quest"] = true,
+        ["Auto Claim Daily Reward"] = true,
+        ["Auto Claim Collection"] = true,
+        ["Auto Claim Achievement"] = true
     },
 }
 
