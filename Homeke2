@@ -1,5 +1,5 @@
 --print("AFK LEGEND Double Dungeon ACT 2")
-getgenv().RedeemAllCode = true
+
 getgenv().Config = {
     ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
