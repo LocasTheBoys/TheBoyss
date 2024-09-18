@@ -1,6 +1,6 @@
 --print("AFK LEGEND Double Dungeon ACT 2")
 
-getgenv().Config = {
+pgetgenv().Config = {
     ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
