@@ -1,14 +1,14 @@
 --print("AFK LEGEND SAND VILLAGE ACT 2")
 
 getgenv().Config = {
-    ["AutoSave"] = false,
+    ["AutoSave"] = false
     ["Legend Stage Joiner"] = {
-        ["Auto Join"] = true,
+        ["Auto Join"] = true
         ["Stage"] = "Double Dungeon",
         ["Act"] = "Act2"
     },
     ["Failsafe"] = {
-        ["Auto Rejoin"] = true,
+        ["Auto Rejoin"] = true
         ["Teleport Lobby if Player"] = true
     },
     ["Webhook"] = {
