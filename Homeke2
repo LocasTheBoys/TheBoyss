@@ -1,5 +1,5 @@
 --print("AFK LEGEND Double Dungeon ACT 2")
-
+a
 pgetgenv().Config = {
     ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
