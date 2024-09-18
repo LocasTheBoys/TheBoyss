@@ -4,7 +4,7 @@ pgetgenv().Config = {
     ["AutoSave"] = false,
     ["Legend Stage Joiner"] = {
         ["Auto Join"] = true,
-        ["Stage"] = "Double Dungeon",
+        ["Stage"] = "Double Dungeon"
         ["Act"] = "Act3"
     },
     ["Failsafe"] = {
