@@ -26,8 +26,9 @@ getgenv().Config = {
     },
     ["Macros"] = {
         ["Macro"] = "LegDDAct123",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries",LegDDAct12
-        ["Ignore Macro Timing"] = true,
         ["Play"] = true,
+        ["Ignore Macro Timing"] = true,
+		["No Ignore Sell Timing"] = true,
         ["Walk Around"] = false
     },
     ["Gameplay"] = {
