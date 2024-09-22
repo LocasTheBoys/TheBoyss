@@ -10,8 +10,8 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke2"
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3"
 }
 
