@@ -17,6 +17,6 @@ getgenv().Config = {
     ["AutoRejoin"] = true,
     ["BoostFPS"] = true,
 }
-getgenv().Key = "k29557962ec037367941922a"
+getgenv().Key = "kafef7341c38517d64860f29"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
