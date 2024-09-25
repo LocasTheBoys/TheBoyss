@@ -15,6 +15,7 @@ getgenv().Config = {
     ["AutoClaimEventQuest"] = true,
     ["DeleteMap"] = true,
     ["AutoRejoin"] = true,
+    ["AutoSave"] = false,
     ["BoostFPS"] = true
 }
 getgenv().Key = "kafef7341c38517d64860f29"
