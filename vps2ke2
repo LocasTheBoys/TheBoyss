@@ -1,7 +1,7 @@
 --print("VPS 1") --Loisprite
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false,
+    ["AutoJoinMatch"] = true,
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
@@ -19,10 +19,10 @@ getgenv().Config = {
     ["ABE_Gift"] = true, --buy crates event for someone
     ["BuyEventName"] = "linokbr",--crates event dikirim ke sini
     ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = false,
-    ["AutoClaimEventPass"] = false,
-    ["AutoClaimDailyReward"] = false,
-    ["AutoClaimPlaytimeReward"] = false,
+    ["AutoClaimEventQuest"] = true,
+    ["AutoClaimEventPass"] = true,
+    ["AutoClaimDailyReward"] = true,
+    ["AutoClaimPlaytimeReward"] = true,
     ["AutoClaimVIP"] = false,
     ["DelayJoin"] = "30",
     ["DelayReplay"] = 5,
