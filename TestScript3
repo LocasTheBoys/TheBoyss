@@ -1,4 +1,4 @@
---print("TTD SCRIPT JUAL JUAL")
+--print("TTD SCRIPT JUAL JUAL PENCIL")
 getgenv().Config = {
     ["AutoListForSale"] = true,
     ["SelectProduct"] = "PencilCrate",--untuk plaza auto sell
