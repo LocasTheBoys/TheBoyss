@@ -1,7 +1,7 @@
 --print("VPS 1") --Loisprite
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
+    ["AutoJoinMatch"] = false,
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
