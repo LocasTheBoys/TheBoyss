@@ -1,64 +1,26 @@
---print("VPS 1") --Loisprite
+--print("TTD SCRIPT JUAL JUAL Ultra Drill Crate")
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
-    ["AutoJoinEndless"] = false,
-    ["AutoRejoin"] = true,
-    ["JoinFailsafe"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "PencilWorld",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "IkkyPensil",
-    ["SellWave"] = 1,
-    ["AutoSkip"] = true,
-    ["PlayMacro"] = true,
-    ["AutoBuyEvent"] = true,--buy pencil event
-    ["AutoBuyEvent2"] = false,
-    ["SelectProduct"] = "PencilCrate",
-    ["ABE_Gift"] = true, --buy crates event for someone
-    ["BuyEventName"] = "dutsehet",--crates event dikirim ke sini
+    ["AutoListForSale"] = true,
+    ["SelectProduct"] = "UltraDrillCrate",--untuk plaza auto sell
+    ["ALFS_HopServer"] = true,--Ini untuk plaza
+    ["ALFS_DelayHop"] = 30,--Ini untuk plaza satuan (Menit)
+    ["GemPrice"] = "185", --GANTI HARGANYA
+    ["WH_MailSent"] = false,
+    ["MailName"] = "Gansdangvp2t",
+    ["RequiredGem"] = 2000,
+    ["DelayJoin"] = 15,
+    ["AutoClaimEventPass"] = true,
+    ["AutoBuyEvent"] = true, --buy crates event
     ["AutoClaimQuest"] = true,
     ["AutoClaimEventQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["AutoClaimVIP"] = false,
-    ["DelayJoin"] = "30",
-    ["DelayReplay"] = 5,
-    ["PlaceFailsafe"] = true,
-    ["MailName"] = "Gansdangvp2t",
-    ["RequiredGem"] = 1000,--Ganti ini untuk jumlah minimal gems
-    ["AutoMail"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xLuckBoost_1"] = false,
-		["2xEggsBoost"] = false,
-		["2xLuckBoost_10"] = false,
-		["2xEventXPBoost"] = false,
-		["2xXPBoost"] = false,
-		["2xClocksBoost"] = false,
-		["2xCoinsBoost_1"] = false,
-		["2xXPBoost_10"] = false,
-		["2xCoinsBoost_10"] = false,
-		["2xEventXPBoost_1"] = false,
-		["2xCloversBoost"] = false,
-		["2xLuckBoost"] = false,
-		["Weekend_2xEndlessXPBoost"] = false,
-		["2xEventXPBoost_10"] = false,
-		["Weekend_2xCoinsBoost"] = false,
-		["2xXPBoost_Easter2024"] = false,
-		["2xXPBoost_1"] = false,
-		["2xCoinsBoost"] = false
-    },
-    ["UseAll"] = false, --use potion satu satu sampai habis (aktif terus)
-    ["WH_MailSent"] = false,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1222839644346126368/7z-p1kLtKUxf1THgK4adiNf8mZ3YxjXqZGsaWdY5Ij5cr078oz7hrzyoFO_NQBk0-1-4",
-    ["AutoSave"] = false,
-    ["BlackScreen"] = false,
+    ["AutoClaimDailyReward"] = true,
+    ["AutoClaimPlaytimeReward"] = true,
     ["DeleteMap"] = true,
-    ["IgnoreMacroTiming"] = true,
+    ["AutoRejoin"] = true,
+    ["AutoSave"] = false,
     ["BoostFPS"] = true
 }
-getgenv().Key = "kafef7341c38517d64860f29"
+
+_G.key = "0f135c0c642b4721b321fb96d25bee5727d7e5109d01128fb68aeda8c042532e"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
