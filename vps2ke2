@@ -61,6 +61,6 @@ getgenv().Config = {
     ["PlaceFailsafe"] = false,
     ["BoostFPS"] = true
 }
-_G.key = "f32e75f1ac5845063e23585a121e464b98d3486c260f97c0df662821fa241569"
+getgenv().Key = "kafef7341c38517d64860f29"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
