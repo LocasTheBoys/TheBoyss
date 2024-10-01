@@ -11,8 +11,6 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/VPS2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps2ke2",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps2ke3",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
