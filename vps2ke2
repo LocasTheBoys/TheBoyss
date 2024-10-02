@@ -1,7 +1,7 @@
 --print("VPS 2") --Loisprite
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true,
+    ["AutoJoinMatch"] = false, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
