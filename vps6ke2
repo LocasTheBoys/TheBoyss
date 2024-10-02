@@ -54,7 +54,7 @@ getgenv().Config = {
     ["UseAll"] = false, --use potion satu satu sampai habis (aktif terus)
     ["WH_MailSent"] = false,
     ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1226239006547640340/ekVkCSFJPPRR83Ywc8_Uw2yUYDjNvSVEq5FXuJU_AJbS8vrg8dMXkeD63zuuvzhirBHu",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z",
     ["AutoSave"] = false,
     ["BlackScreen"] = false,
     ["DeleteMap"] = true,
@@ -62,6 +62,6 @@ getgenv().Config = {
     ["PlaceFailsafe"] = false,
     ["BoostFPS"] = true
 }
-getgenv().Key = "k29557962ec037367941922a"
+getgenv().Key = "k876dc4ddff1e681aaca8d9a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
