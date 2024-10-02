@@ -1,4 +1,4 @@
---print("VPS 2") --Loisprite
+--print("VPS 5") --Loisprite
 getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
@@ -54,7 +54,7 @@ getgenv().Config = {
     ["UseAll"] = false, --use potion satu satu sampai habis (aktif terus)
     ["WH_MailSent"] = false,
     ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1225497933093404762/D5B_R10ptZGj4TcGeAELiMonSvA5dDPOQRndSlLLRIwZseq10waF_z1RjYQz7bj7Iuaf",
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1226590290845110333/hCLayxJ6n0rJH7qkOpky7u9LI2EyyzeG9YD02cU70err0FgQz378mDQ42I2uz8CC8t8k",
     ["AutoSave"] = false,
     ["BlackScreen"] = false,
     ["DeleteMap"] = true,
