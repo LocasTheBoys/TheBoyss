@@ -1,4 +1,4 @@
---print("FREE NOUSIGI RUMAH")
+--print("VPS 6")
 print("Full Script Is Running")
 local function executeScripts(scripts)
     for _, script in ipairs(scripts) do
@@ -10,10 +10,10 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/refs/heads/main/TestScript",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/refs/heads/main/AutoTPPlazaTTD",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP",
-    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/Homeke3"
+	"https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/VPS4",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps6ke2",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps6ke3",
+    "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
 }
 
 executeScripts(scripts)
