@@ -1,4 +1,5 @@
 --print("VPS 2") --Loisprite
+getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = false, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
