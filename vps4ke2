@@ -1,5 +1,5 @@
 --print("VPS 2") --Loisprite
-getgenv().EquipMacroTroop = true
+--getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
@@ -14,7 +14,7 @@ getgenv().Config = {
     ["SellWave"] = 1,
     ["AutoSkip"] = true,
     ["PlayMacro"] = true,
-    ["AutoBuyEvent"] = true,--buy pencil event
+    ["AutoBuyEvent"] = true,--buy ultra drill event
     ["AutoBuyEvent2"] = false,
     ["SelectProduct"] = "PencilCrate",
     ["ABE_Gift"] = true, --buy crates event for someone
@@ -28,7 +28,7 @@ getgenv().Config = {
     ["DelayJoin"] = "30",
     ["DelayReplay"] = 5,
     ["MailName"] = "PengepulGans1",
-    ["RequiredGem"] = 350,--Ganti ini untuk jumlah minimal gems
+    ["RequiredGem"] = 250,--Ganti ini untuk jumlah minimal gems
     ["AutoMail"] = true,
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
