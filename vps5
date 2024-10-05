@@ -11,7 +11,7 @@ end
 
 local scripts = {
     "https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/TPShop",
-    "https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/VPS1",
+    "https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/PotionUse",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke2",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps5ke3",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
