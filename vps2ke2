@@ -2,7 +2,7 @@
 --getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
+    ["AutoJoinMatch"] = false, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
@@ -28,7 +28,7 @@ getgenv().Config = {
     ["DelayJoin"] = "30",
     ["DelayReplay"] = 5,
     ["MailName"] = "Gansdangvp2t",
-    ["RequiredGem"] = 250,--Ganti ini untuk jumlah minimal gems
+    ["RequiredGem"] = 200,--Ganti ini untuk jumlah minimal gems
     ["AutoMail"] = true,
     ["AutoUseBoost"] = true,
     ["UseBoosts"] = {
