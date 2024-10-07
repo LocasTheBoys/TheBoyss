@@ -2,7 +2,7 @@
 --getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
+    ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
