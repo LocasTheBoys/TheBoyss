@@ -58,8 +58,8 @@ getgenv().Config = {
     ["AutoSave"] = false,
     ["BlackScreen"] = false,
     ["DeleteMap"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["PlaceFailsafe"] = true,
+    ["IgnoreMacroTiming"] = false,
+    ["PlaceFailsafe"] = false,
     ["BoostFPS"] = true
 }
 getgenv().Key = "kafef7341c38517d64860f29"
