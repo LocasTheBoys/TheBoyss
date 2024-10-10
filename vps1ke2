@@ -1,16 +1,16 @@
---print("VPS 1") --Loisprite
+--print("VPS 1")
 --getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = false, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
+    ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
     ["AutoJoinEndless"] = false,
     ["AutoRejoin"] = true,
     ["JoinFailsafe"] = true,
     ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "DrillWorld (Rewind)",
+    ["SelectMap"] = "PencilWorld",
     ["AutoVoteDifficulty"] = "true",
     ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "gacor2",
+    ["SelectMacro"] = "IkkyPensil",
     ["SellWave"] = 1,
     ["AutoSkip"] = true,
     ["PlayMacro"] = true,
@@ -18,7 +18,7 @@ getgenv().Config = {
     ["AutoBuyEvent2"] = false,
     ["SelectProduct"] = "PencilCrate",
     ["ABE_Gift"] = true, --buy crates event for someone
-    ["BuyEventName"] = "rtlxfr",--crates event dikirim ke sini
+    ["BuyEventName"] = "sidjjim",--crates event dikirim ke sini
     ["AutoClaimQuest"] = true,
     ["AutoClaimEventQuest"] = true,
     ["AutoClaimEventPass"] = true,
@@ -58,8 +58,8 @@ getgenv().Config = {
     ["AutoSave"] = false,
     ["BlackScreen"] = false,
     ["DeleteMap"] = true,
-    ["IgnoreMacroTiming"] = false,
-    ["PlaceFailsafe"] = false,
+    ["IgnoreMacroTiming"] = true,
+    ["PlaceFailsafe"] = true,
     ["BoostFPS"] = true
 }
 getgenv().Key = "kafef7341c38517d64860f29"
