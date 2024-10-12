@@ -1,4 +1,3 @@
-
 --print("VPS 6")
 print("Full Script Is Running")
 local function executeScripts(scripts)
