@@ -1,57 +1,61 @@
---print("AFK LEGEND Double Dungeon ACT 2")
-
+--print("VPS 2")
+--getgenv().EquipMacroTroop = true
 getgenv().Config = {
+    ["AutoReplay"] = true,
+    ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
+    ["AutoJoinEndless"] = false,
+    ["AutoRejoin"] = true,
+    ["JoinFailsafe"] = true,
+    ["TPLobbyIfPlayer"] = true,
+    ["SelectMap"] = "PencilWorld",
+    ["AutoVoteDifficulty"] = "true",
+    ["SelectDifficulty"] = "Nightmare",
+    ["SelectMacro"] = "test5",
+    ["SellWave"] = 1,
+    ["AutoSkip"] = true,
+    ["PlayMacro"] = true,
+    ["AutoBuyEvent"] = true,--buy ultra drill event
+    ["AutoBuyEvent2"] = false,
+    ["SelectProduct"] = "PencilCrate",
+    ["ABE_Gift"] = true, --buy crates event for someone
+    ["BuyEventName"] = "Tromballoni",--crates event dikirim ke sini
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimEventQuest"] = true,
+    ["AutoClaimEventPass"] = true,
+    ["AutoClaimDailyReward"] = true,
+    ["AutoClaimPlaytimeReward"] = true,
+    ["AutoClaimVIP"] = false,
+    ["DelayJoin"] = "30",
+    ["DelayReplay"] = 5,
+    ["MailName"] = "RegemxOCEAN",
+    ["RequiredGem"] = 200,--Ganti ini untuk jumlah minimal gems
+    ["AutoMail"] = true,
+    ["AutoUseBoost"] = true,
+    ["UseBoosts"] = {
+        ["2xCoinsBoost_1"] = false,
+        ["2xDrillXPBoost"] = false,
+        ["2xXPBoost_10"] = false,
+        ["2xCoinsBoost_10"] = false,
+        ["2xLuckBoost_10"] = false,
+        ["2xHalloweenCandyBoost_1"] = false,
+        ["2xEventXPBoost_1"] = false,
+        ["2xEventXPBoost_10"] = false,
+        ["2xDrillBoost"] = false,
+        ["2xHalloweenCandyBoost_10"] = false,
+        ["2xXPBoost_1"] = false,
+        ["2xLuckBoost_1"] = false
+    },
+    ["UseAll"] = false, --use potion satu satu sampai habis (aktif terus)
+    ["WH_MailSent"] = false,
+    ["WH_MatchComplete"] = true,
+    ["WebhookURL"] = "https://discord.com/api/webhooks/1223744573885517995/JKQZ6UHukEnkM7Pk8xxeO21ACEThMHC0Idpfh1ic31iSOvAz3W1UzxacaWXfN8w2ZrDU",
     ["AutoSave"] = false,
-    ["Legend Stage Joiner"] = {
-        ["Auto Join"] = true,
-        ["Stage"] = "Double Dungeon",
-        ["Act"] = "Act3"
-    },
-    ["Failsafe"] = {
-        ["Auto Rejoin"] = true,
-        ["Teleport Lobby if Player"] = true
-    },
-    ["Webhook"] = {
-        ["Stage Finished"] = true,
-        ["URL"] = "https://discord.com/api/webhooks/1245089517220659280/9Y7k2-xAtW24kYmmQfESM4nkriDOyA_duWTLnBnTliWdqOluXSTZnYiz44Q1nHG20d3Z"
-    },
-    ["Performance"] = {
-        ["Delete Map"] = true,
-        ["Boost FPS"] = true
-    },
-    ["Stage Joiner"] = {
-        ["Auto Join"] = false,
-        ["Act"] = "Act1",
-        ["Stage"] = "Planet Namak"
-    },
-    ["Macros"] = {
-        ["Macro"] = "herere",--"NamakAct123456_2LegSpr","SandAct123456_2LegSpr","Stage3Act5_Kinaru","LegendStageAct123_Legendaries",LegDDAct12,herere,Remake_LegendStageAct3_Legendaries
-        ["Play"] = true,
-        ["Ignore Macro Timing"] = true,
-	["No Ignore Sell Timing"] = true,
-        ["Walk Around"] = false
-    },
-    ["Gameplay"] = {
-        ["Auto Sell"] = {
-            ["Enable"] = false,
-            ["Wave"] = 1
-        },
-        ["Auto Skip Wave"] = true
-    },
-    ["Match Finished"] = {
-        ["Auto Return Lobby"] = false,
-        ["Auto Replay"] = true,
-        ["Auto Next"] = false
-    },
-    ["Claimer"] = {
-        ["Auto Claim Battle Pass"] = true,
-        ["Auto Claim Quest"] = true,
-        ["Auto Claim Daily Reward"] = true,
-        ["Auto Claim Collection"] = true,
-        ["Auto Claim Achievement"] = true
-    },
+    ["BlackScreen"] = false,
+    ["DeleteMap"] = true,
+    ["IgnoreMacroTiming"] = false,
+    ["PlaceFailsafe"] = false,
+    ["BoostFPS"] = true
 }
-
-getgenv().Key = "k876dc4ddff1e681aaca8d9a"
+getgenv().Key = "kafef7341c38517d64860f29"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
