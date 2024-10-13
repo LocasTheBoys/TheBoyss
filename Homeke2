@@ -52,7 +52,7 @@ getgenv().Config = {
     ["AutoSave"] = false,
     ["BlackScreen"] = false,
     ["DeleteMap"] = true,
-    ["IgnoreMacroTiming"] = true,
+    ["IgnoreMacroTiming"] = false,
     ["PlaceFailsafe"] = false,
     ["BoostFPS"] = true
 }
