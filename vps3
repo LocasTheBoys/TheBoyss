@@ -1,4 +1,4 @@
---print("VPS 3")
+--print("VPS 1")
 print("Full Script Is Running")
 local function executeScripts(scripts)
     for _, script in ipairs(scripts) do
@@ -10,8 +10,6 @@ local function executeScripts(scripts)
 end
 
 local scripts = {
-    "https://raw.githubusercontent.com/LocasTheBoys/tetes/refs/heads/main/TPShop",
-    "https://raw.githubusercontent.com/LocasTheBoys/tetes/main/VPS5",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps3ke2",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/vps3ke3",
     "https://raw.githubusercontent.com/LocasTheBoys/TheBoyss/main/FPSCAP"
