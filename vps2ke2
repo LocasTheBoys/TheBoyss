@@ -1,4 +1,4 @@
---print("VPS 1")
+--print("VPS 2")
 --getgenv().EquipMacroTroop = true
 getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1223820010414276679/1295462607188131870/test5.json?ex=670ebd12&is=670d6b92&hm=5f72a54f10f1187702c1ce1d8372e34c953849d30e93d86ea8169e8be569b8c1&"
 getgenv().Config = {
