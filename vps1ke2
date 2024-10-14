@@ -1,5 +1,5 @@
 --print("VPS 1")
-getgenv().EquipMacroTroop = true
+--getgenv().EquipMacroTroop = true
 getgenv().Config = {
     ["AutoReplay"] = true,
     ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
