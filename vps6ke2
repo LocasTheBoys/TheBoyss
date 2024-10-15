@@ -88,7 +88,7 @@ getgenv().Config = {
 	},
 	["Performance"] = {
 		["Boost FPS"] = true,
-		["Black Screen"] = true
+		["Black Screen"] = false
 	},
 	["Sender"] = {
 		["Auto Send Mail"] = false,
