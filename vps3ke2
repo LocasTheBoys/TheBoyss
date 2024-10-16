@@ -1,63 +1,110 @@
---print("VPS 3")
---getgenv().EquipMacroTroop = true
-getgenv().ImportMacro = "https://cdn.discordapp.com/attachments/1223820010414276679/1295462607188131870/test5.json?ex=670ebd12&is=670d6b92&hm=5f72a54f10f1187702c1ce1d8372e34c953849d30e93d86ea8169e8be569b8c1&"
+--print("VPS 2")
 getgenv().Config = {
-    ["AutoReplay"] = true,
-    ["AutoJoinMatch"] = true, -- PENTING GANTI INI UNTUK SEBELUM SWTICH ACC
-    ["AutoJoinEndless"] = false,
-    ["AutoRejoin"] = true,
-    ["JoinFailsafe"] = true,
-    ["TPLobbyIfPlayer"] = true,
-    ["SelectMap"] = "HalloweenGraveyard",
-    ["AutoVoteDifficulty"] = "true",
-    ["SelectDifficulty"] = "Nightmare",
-    ["SelectMacro"] = "test5",
-    ["SellWave"] = 1,
-    ["AutoSkip"] = true,
-    ["PlayMacro"] = true,
-    ["AutoBuyEvent"] = true,--buy ultra drill event
-    ["AutoBuyEvent2"] = false,
-    ["SelectProduct"] = "PencilCrate",
-    ["ABE_Gift"] = true, --buy crates event for someone
-    ["BuyEventName"] = "6nhjjjjh",--crates event dikirim ke sini
-    ["EventType"] = "Halloween Event",
-    ["AutoClaimQuest"] = true,
-    ["AutoClaimEventQuest"] = true,
-    ["AutoClaimEventPass"] = true,
-    ["AutoClaimDailyReward"] = true,
-    ["AutoClaimPlaytimeReward"] = true,
-    ["AutoClaimVIP"] = false,
-    ["DelayJoin"] = "30",
-    ["DelayReplay"] = 5,
-    ["MailName"] = "RegemxOCEAN",
-    ["RequiredGem"] = 200,--Ganti ini untuk jumlah minimal gems
-    ["AutoMail"] = true,
-    ["AutoUseBoost"] = true,
-    ["UseBoosts"] = {
-        ["2xCoinsBoost_1"] = false,
-        ["2xDrillXPBoost"] = false,
-        ["2xXPBoost_10"] = false,
-        ["2xCoinsBoost_10"] = false,
-        ["2xLuckBoost_10"] = false,
-        ["2xHalloweenCandyBoost_1"] = true,
-        ["2xEventXPBoost_1"] = false,
-        ["2xEventXPBoost_10"] = false,
-        ["2xDrillBoost"] = false,
-        ["2xHalloweenCandyBoost_10"] = true,
-        ["2xXPBoost_1"] = false,
-        ["2xLuckBoost_1"] = false
-    },
-    ["UseAll"] = true, --use potion satu satu sampai habis (aktif terus)
-    ["WH_MailSent"] = false,
-    ["WH_MatchComplete"] = true,
-    ["WebhookURL"] = "https://discord.com/api/webhooks/1225497933093404762/D5B_R10ptZGj4TcGeAELiMonSvA5dDPOQRndSlLLRIwZseq10waF_z1RjYQz7bj7Iuaf",
-    ["AutoSave"] = false,
-    ["BlackScreen"] = false,
-    ["DeleteMap"] = true,
-    ["IgnoreMacroTiming"] = true,
-    ["PlaceFailsafe"] = false,
-    ["BoostFPS"] = true
+	["AutoSave"] = false,
+	["Webhook"] = {
+		["Pet Rolled"] = true,
+		["Minimum Chance"] = 1000000,
+		["Mail Sent"] = false,
+		["URL"] = "https://discord.com/api/webhooks/1223744576511148192/wlK-pp8vY7IHNINFQjFqi4n2d-U-_WbVjtigUL73ocU_BqYhUwQOhBUvicOGKM5MGFgc"
+	},
+	["Consumer"] = {
+		["Potion"] = {
+			["Enable"] = true,
+			["Potion"] = {
+				["Coins Potion II"] = false,
+				["Lucky Potion IV"] = false,
+				["Lucky Potion V"] = true,
+				["Walkspeed Potion II"] = false,
+				["Items Potion III"] = true,
+				["Lucky Potion II"] = false,
+				["Instant Luck Potion I"] = false,
+				["Coins Potion III"] = false,
+				["Coins Potion V"] = true,
+				["Faster Rolls Potion"] = true,
+				["Items Potion II"] = false,
+				["Golden Dice Potion"] = false,
+				["Walkspeed Potion I"] = false,
+				["The Cocktail"] = false,
+				["Walkspeed Potion III"] = false,
+				["Instant Luck Potion II"] = false,
+				["Lucky Potion I"] = false,
+				["Breakables Potion II"] = true,
+				["Lucky Potion III"] = false,
+				["Coins Potion IV"] = false,
+				["Rainbow Dice Potion"] = false,
+				["Instant Luck Potion III"] = false,
+				["Breakables Potion I"] = false,
+				["Items Potion I"] = false,
+				["Coins Potion I"] = false
+			}
+		},
+		["Fruit"] = {
+			["Enable"] = true,
+			["Fruit"] = {
+				["Watermelon"] = true,
+				["Pineapple"] = true,
+				["Rainbow"] = true,
+				["Apple"] = true,
+				["Orange"] = true,
+				["Banana"] = true
+			}
+		}
+	},
+	["Upgrader"] = {
+		["Enable"] = true,
+		["Keep Amount"] = 100
+	},
+	["Crafter"] = {
+		["Enable"] = true,
+		["Potion"] = {
+			["Coins Potion II"] = true,
+			["The Cocktail"] = false,
+			["Rainbow Dice Potion"] = true,
+			["Walkspeed Potion II"] = true,
+			["Lucky Potion II"] = true,
+			["Coins Potion III"] = true,
+			["Coins Potion V"] = true,
+			["Instant Luck Potion II"] = true,
+			["Items Potion II"] = true,
+			["Breakables Potion I"] = true,
+			["Golden Dice Potion"] = true,
+			["Items Potion III"] = true,
+			["Instant Luck Potion I"] = true,
+			["Walkspeed Potion III"] = true,
+			["Faster Rolls Potion"] = true,
+			["Breakables Potion II"] = true,
+			["Lucky Potion III"] = true,
+			["Coins Potion IV"] = true,
+			["Lucky Potion IV"] = true,
+			["Instant Luck Potion III"] = true,
+			["Lucky Potion V"] = true,
+			["Items Potion I"] = true,
+			["Walkspeed Potion I"] = true
+		}
+	},
+	["Resource"] = {
+		["Auto Farm"] = true,
+		["Auto Hidden Gift"] = true
+	},
+	["Performance"] = {
+		["Boost FPS"] = true,
+		["Black Screen"] = false
+	},
+	["Sender"] = {
+		["Auto Send Mail"] = false,
+		["Minimum Chance"] = 1000000,
+		["Receiver Name"] = "TumbalProyek123123"
+	},
+	["Buyer"] = {
+		["Potion Vending"] = true
+	},
+	["Interface"] = {
+		["Auto Upgrade"] = true,
+		["Auto Roll"] = true,
+		["Fast Roll"] = true
+	}
 }
+
 getgenv().Key = "k29557962ec037367941922a"
 
 repeat wait()spawn(function()loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()end)wait(10)until Joebiden
