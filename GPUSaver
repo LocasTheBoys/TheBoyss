@@ -1,17 +1,20 @@
+repeat task.wait() until game:IsLoaded()
+wait(10) --waktu tunggu
+print("GPU SAVER")
+
 local rs = game:GetService("RunService")
+local coreGui = game:GetService("CoreGui")
 
 -- Fungsi untuk menambahkan overlay hitam penuh ke layar
 local function addFullBlackScreen()
-    local player = game.Players.LocalPlayer
-    local playerGui = player:WaitForChild("PlayerGui")
-
     -- Cek apakah overlay sudah ada
-    if not playerGui:FindFirstChild("BlackOverlay") then
+    if not coreGui:FindFirstChild("BlackOverlay") then
         -- Buat overlay hitam
         local screenGui = Instance.new("ScreenGui")
         screenGui.Name = "BlackOverlay"
         screenGui.ResetOnSpawn = false
-        screenGui.DisplayOrder = 1000  -- Pastikan overlay ini di atas elemen lain
+        screenGui.IgnoreGuiInset = true  -- Pastikan tidak ada elemen lain yang terlihat
+        screenGui.DisplayOrder = 10000  -- Sangat tinggi untuk memastikan lapisan atas
 
         -- Buat frame hitam yang menutupi seluruh layar
         local blackFrame = Instance.new("Frame")
@@ -20,11 +23,11 @@ local function addFullBlackScreen()
         blackFrame.BackgroundColor3 = Color3.new(0, 0, 0)  -- Warna hitam
         blackFrame.BackgroundTransparency = 0  -- Tanpa transparansi
         blackFrame.BorderSizePixel = 0  -- Hilangkan border
-        blackFrame.ZIndex = 10  -- Pastikan elemen ini berada di lapisan yang lebih tinggi
+        blackFrame.ZIndex = 10000  -- Pastikan frame hitam berada di lapisan tertinggi
         blackFrame.Parent = screenGui
 
-        -- Menempatkan ScreenGui di dalam PlayerGui
-        screenGui.Parent = playerGui
+        -- Menempatkan ScreenGui di dalam CoreGui untuk prioritas tertinggi
+        screenGui.Parent = coreGui
     end
 end
 
