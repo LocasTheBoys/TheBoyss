@@ -1,0 +1,38 @@
+local rs = game:GetService("RunService")
+
+-- Fungsi untuk menambahkan overlay hitam penuh ke layar
+local function addFullBlackScreen()
+    local player = game.Players.LocalPlayer
+    local playerGui = player:WaitForChild("PlayerGui")
+
+    -- Cek apakah overlay sudah ada
+    if not playerGui:FindFirstChild("BlackOverlay") then
+        -- Buat overlay hitam
+        local screenGui = Instance.new("ScreenGui")
+        screenGui.Name = "BlackOverlay"
+        screenGui.ResetOnSpawn = false
+        screenGui.DisplayOrder = 1000  -- Pastikan overlay ini di atas elemen lain
+
+        -- Buat frame hitam yang menutupi seluruh layar
+        local blackFrame = Instance.new("Frame")
+        blackFrame.Size = UDim2.new(1, 0, 1, 0)  -- Menutupi layar penuh
+        blackFrame.Position = UDim2.new(0, 0, 0, 0)
+        blackFrame.BackgroundColor3 = Color3.new(0, 0, 0)  -- Warna hitam
+        blackFrame.BackgroundTransparency = 0  -- Tanpa transparansi
+        blackFrame.BorderSizePixel = 0  -- Hilangkan border
+        blackFrame.ZIndex = 10  -- Pastikan elemen ini berada di lapisan yang lebih tinggi
+        blackFrame.Parent = screenGui
+
+        -- Menempatkan ScreenGui di dalam PlayerGui
+        screenGui.Parent = playerGui
+    end
+end
+
+-- Nonaktifkan rendering 3D untuk mengurangi beban GPU
+rs:Set3dRenderingEnabled(false)
+
+-- Menambahkan overlay hitam penuh ke layar
+addFullBlackScreen()
+
+-- Mengaktifkan throttle untuk membatasi framerate
+rs:SetThrottleFramerateEnabled(true)
