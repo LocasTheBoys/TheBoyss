@@ -1,4 +1,4 @@
---print("VPS 2")
+--print("VPS 3")
 getgenv().Config = {
 	["AutoSave"] = false,
 	["Webhook"] = {
