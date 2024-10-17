@@ -1,9 +1,9 @@
---print("VPS 5")
+--print("VPS 6")
 getgenv().Config = {
 	["AutoSave"] = false,
 	["Webhook"] = {
 		["Pet Rolled"] = true,
-		["Minimum Chance"] = 1000000,
+		["Minimum Chance"] = 5000000,
 		["Mail Sent"] = false,
 		["URL"] = "https://discord.com/api/webhooks/1223744576511148192/wlK-pp8vY7IHNINFQjFqi4n2d-U-_WbVjtigUL73ocU_BqYhUwQOhBUvicOGKM5MGFgc"
 	},
@@ -91,12 +91,21 @@ getgenv().Config = {
 		["Black Screen"] = false
 	},
 	["Sender"] = {
-		["Auto Send Mail"] = false,
-		["Minimum Chance"] = 1000000,
-		["Receiver Name"] = "TumbalProyek123123"
+		["Auto Send Mail"] = true,
+	        ["Minimum Chance"] = 5000000,
+	        ["Receiver Name"] = "Tromballoni"
 	},
 	["Buyer"] = {
-		["Potion Vending"] = true
+		["Potion Vending"] = true,
+	        ["Item"] = {
+	            ["Rainbow Dice Potion"] = true,
+	            ["Instant Luck Potion II"] = true,
+	            ["Lucky Potion V"] = true,
+	            ["Instant Luck Potion III"] = true
+	        },
+	        ["Index Shop"] = {
+	            ["Enable"] = true
+	        }
 	},
 	["Interface"] = {
 		["Auto Upgrade"] = true,
