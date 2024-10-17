@@ -91,6 +91,7 @@ getgenv().Config = {
 		["Black Screen"] = false
 	},
 	["Sender"] = {
+		["Auto Send Mail"] = true,
 	        ["Minimum Chance"] = 5000000,
 	        ["Receiver Name"] = "Tromballoni"
 	},
